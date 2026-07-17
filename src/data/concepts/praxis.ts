@@ -1,6 +1,56 @@
 import type { Concept } from "../types";
+
 export const praxisConcepts: Concept[] = [
-  { id: "praxis-overview", title: "PRAXIS for Information Systems Planning", topicId: "praxis", summary: "PRAXIS is an eclectic, iterative framework that combines structured planning knowledge with contingent use.", detail: { components: ["PRAXIS/a: adaptable approach and moments", "PRAXIS/m: initiation, analysis and architecture method", "PRAXIS/f: tools and matrix representations", "P1–P16 postulates"], examTraps: ["PRAXIS is not a mandatory linear sequence.", "It integrates organizational and human concerns, not technology only."] }, related: ["modelo-realidades-preponderantes", "sisp-process"] },
-  { id: "modelo-realidades-preponderantes", title: "Preponderant Realities Model (MRP)", topicId: "praxis", summary: "MRP is a dynamic checklist of planning knowledge applied at different moments.", detail: { components: ["Paradigms", "Influences", "Results", "Future"], examTraps: ["MRP items are not fixed sequential phases and need not all be applied identically."] }, related: ["praxis-overview", "sisp-process"] },
-  { id: "praxis-postulates", title: "PRAXIS Postulates", topicId: "praxis", summary: "Core postulates promote rational, contingent, holistic and multidimensional planning.", detail: { components: ["P1 Rationality", "P6 Contingency", "P9 Holism", "P12 Eclectic multidimensional approach", "P14 Matrix representations", "P16 Advanced computing"], examTraps: ["P12 supports method selection for context; it does not prescribe one universal method."] }, related: ["praxis-overview", "modelo-realidades-preponderantes"] },
+  {
+    id: "praxis-overview",
+    title: "PRAXIS for Information Systems Planning",
+    topicId: "praxis",
+    summary: "PRAXIS is an eclectic, iterative framework that combines structured planning knowledge with contingent use.",
+    detail: {
+      components: [
+        "PRAXIS/a: adaptable approach and moments",
+        "PRAXIS/m: initiation, analysis and architecture method",
+        "PRAXIS/f: tools and matrix representations",
+        "P1–P16 postulates",
+      ],
+      examTraps: [
+        "PRAXIS is not a mandatory linear sequence.",
+        "It integrates organizational and human concerns, not technology only.",
+      ],
+    },
+    related: ["modelo-realidades-preponderantes", "sisp-process"],
+  },
+  {
+    id: "modelo-realidades-preponderantes",
+    title: "Preponderant Realities Model (MRP)",
+    topicId: "praxis",
+    summary: "MRP is a dynamic checklist of planning knowledge applied at different moments.",
+    detail: {
+      components: ["Paradigms", "Influences", "Results", "Future"],
+      examTraps: ["MRP items are not fixed sequential phases and need not all be applied identically."],
+    },
+    visual: {
+      kind: "chips",
+      items: ["Paradigms", "Influences", "Results", "Future"],
+    },
+    related: ["praxis-overview", "sisp-process"],
+  },
+  {
+    id: "praxis-postulates",
+    title: "PRAXIS Postulates",
+    topicId: "praxis",
+    summary: "Core postulates promote rational, contingent, holistic and multidimensional planning.",
+    detail: {
+      components: [
+        "P1 Rationality",
+        "P6 Contingency",
+        "P9 Holism",
+        "P12 Eclectic multidimensional approach",
+        "P14 Matrix representations",
+        "P16 Advanced computing",
+      ],
+      examTraps: ["P12 supports method selection for context; it does not prescribe one universal method."],
+    },
+    related: ["praxis-overview", "modelo-realidades-preponderantes"],
+  },
 ];

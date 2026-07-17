@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { conceptsById } from "../data/concepts";
 import type { Concept } from "../data/types";
+import { ConceptVisualView } from "./ConceptVisual";
 
 type Props = {
   concept: Concept | null;
@@ -35,6 +36,7 @@ function ConceptBody({
         {curated ? "Exam concept card" : "Mind-map branch"}
       </p>
       <p className="sheet-summary">{concept.summary}</p>
+      {concept.visual ? <ConceptVisualView visual={concept.visual} title={concept.title} /> : null}
       {detail.definition ? (
         <Section title="Definition">
           <p>{detail.definition}</p>

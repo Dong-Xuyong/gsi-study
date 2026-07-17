@@ -1,11 +1,189 @@
 import type { Concept } from "../types";
 
 export const introductionConcepts: Concept[] = [
-  { id: "mcfarlan-matrix", title: "McFarlan Strategic Grid", topicId: "introduction", summary: "Classifies applications by their current and future business contribution.", detail: { definition: "A portfolio grid used to decide how applications should be governed and funded.", components: ["Strategic: current and future competitive impact", "Key Operational: essential to current operations", "High Potential: uncertain future opportunity", "Support: useful, non-critical productivity"], examples: ["ERP is usually Key Operational; an AI proof of concept is High Potential."], examTraps: ["Do not classify by technical novelty alone.", "The quadrant is Key Operational, not merely Operational."] }, related: ["mcfarlan-portfolio-lifecycle", "it-governance"] },
-  { id: "sullivan-matrix", title: "Sullivan's Infusion–Diffusion Matrix", topicId: "introduction", summary: "Describes the IS/IT environment through business dependence and organizational spread.", detail: { definition: "Infusion measures how critical IT is to operations; diffusion measures how broadly IT is distributed.", components: ["Traditional: low infusion, low diffusion", "Opportunistic: low infusion, high diffusion", "Backbone: high infusion, low diffusion", "Complex: high infusion, high diffusion"], comparisons: [{ left: "Internal pressure", right: "More diffusion", note: "Pushes decentralization." }, { left: "Competitive pressure", right: "More infusion", note: "Pushes reliance on IT." }], examTraps: ["Do not swap infusion (dependence) with diffusion (spread)."] }, related: ["mcfarlan-matrix", "it-governance"] },
-  { id: "traditional-vs-reframed-quests", title: "Traditional and Reframed IS/IT Quests", topicId: "introduction", summary: "Reframes stable-environment alignment, integration and impact for continuously changing contexts.", detail: { components: ["Traditional: alignment, integration, impact", "Reframed: co-evolution, reconfiguration, renewal"], comparisons: [{ left: "Alignment", right: "Co-evolution", note: "Dynamic repositioning with the environment." }, { left: "Integration", right: "Reconfiguration", note: "Break and rebuild arrangements as needed." }, { left: "Impact", right: "Renewal", note: "Replace fading advantages repeatedly." }], examTraps: ["The reframed view does not assume a stable market or permanent advantage."] }, related: ["digital-disruption", "competitive-advantage-is"] },
-  { id: "it-enabler-vs-is-advantage", title: "IT Enabler, IS Advantage and Information Advantage", topicId: "introduction", summary: "Technology alone enables change; process and information use make an advantage harder to copy.", detail: { comparisons: [{ left: "IT enabler", right: "Short-term advantage", note: "A readily available technology." }, { left: "IS advantage", right: "Harder-to-copy process change", note: "Combines technology with organizational routines." }, { left: "Information advantage", right: "Potentially sustainable value", note: "Improves products, services or decisions." }], examples: ["A CRM package is an enabler; a distinctive data-driven service process can be an IS advantage."], examTraps: ["Buying the same technology as competitors is not by itself competitive advantage."] }, related: ["resource-based-view", "competitive-advantage-is"] },
-  { id: "it-cmf-overview", title: "IT-CMF Overview", topicId: "itcmf", summary: "IT-CMF is a capability maturity framework for managing IT as a business and improving its value.", detail: { definition: "The IT Capability Maturity Framework organizes critical IT management capabilities and assesses their maturity.", components: ["Managing IT like a business", "Managing the IT budget", "Managing IT for business value", "Managing IT capability"], examTraps: ["IT-CMF is broader than a service-management or project-delivery method."] }, related: ["it-cmf-macro-capabilities", "it-cmf-maturity-levels", "it-cmf-critical-capabilities", "cc-bar"] },
-  { id: "it-cmf-macro-capabilities", title: "IT-CMF Macro-Capabilities", topicId: "itcmf", summary: "Four high-level lenses organize how IT is governed, funded, valued and developed.", detail: { components: ["Managing IT like a business", "Managing the IT budget", "Managing IT for business value", "Managing IT capability"], examples: ["BAR supports value realization; PAM develops people assets; TCO exposes costs."], examTraps: ["Macro-capabilities are umbrellas; they are not individual Critical Capabilities."] }, related: ["it-cmf-overview", "it-cmf-maturity-levels", "it-cmf-critical-capabilities"] },
-  { id: "it-cmf-maturity-levels", title: "IT-CMF Maturity Levels", topicId: "itcmf", summary: "Maturity levels indicate increasingly disciplined and optimized capability performance.", detail: { components: ["1 Initial", "2 Basic", "3 Intermediate", "4 Advanced", "5 Optimizing"], examTraps: ["Maturity measures capability practices, not the age or sophistication of a technology."] }, related: ["it-cmf-overview", "it-cmf-macro-capabilities"] },
+  {
+    id: "mcfarlan-matrix",
+    title: "McFarlan Strategic Grid",
+    topicId: "introduction",
+    summary: "Classifies applications by their current and future business contribution.",
+    detail: {
+      definition: "A portfolio grid used to decide how applications should be governed and funded.",
+      components: [
+        "Strategic: current and future competitive impact",
+        "Key Operational: essential to current operations",
+        "High Potential: uncertain future opportunity",
+        "Support: useful, non-critical productivity",
+      ],
+      examples: ["ERP is usually Key Operational; an AI proof of concept is High Potential."],
+      examTraps: [
+        "Do not classify by technical novelty alone.",
+        "The quadrant is Key Operational, not merely Operational.",
+      ],
+    },
+    visual: {
+      kind: "matrix2x2",
+      xLow: "Low current impact",
+      xHigh: "High current impact",
+      yLow: "Low future impact",
+      yHigh: "High future impact",
+      cells: [
+        { label: "High Potential", hint: "Future opportunity" },
+        { label: "Strategic", hint: "Now + future" },
+        { label: "Support", hint: "Useful, not critical" },
+        { label: "Key Operational", hint: "Keep running" },
+      ],
+    },
+    related: ["mcfarlan-portfolio-lifecycle", "it-governance"],
+  },
+  {
+    id: "sullivan-matrix",
+    title: "Sullivan's Infusion–Diffusion Matrix",
+    topicId: "introduction",
+    summary: "Describes the IS/IT environment through business dependence and organizational spread.",
+    detail: {
+      definition:
+        "Infusion measures how critical IT is to operations; diffusion measures how broadly IT is distributed.",
+      components: [
+        "Traditional: low infusion, low diffusion",
+        "Opportunistic: low infusion, high diffusion",
+        "Backbone: high infusion, low diffusion",
+        "Complex: high infusion, high diffusion",
+      ],
+      comparisons: [
+        { left: "Internal pressure", right: "More diffusion", note: "Pushes decentralization." },
+        { left: "Competitive pressure", right: "More infusion", note: "Pushes reliance on IT." },
+      ],
+      examTraps: ["Do not swap infusion (dependence) with diffusion (spread)."],
+    },
+    visual: {
+      kind: "matrix2x2",
+      xLow: "Low diffusion",
+      xHigh: "High diffusion",
+      yLow: "Low infusion",
+      yHigh: "High infusion",
+      cells: [
+        { label: "Backbone", hint: "Central, critical" },
+        { label: "Complex", hint: "Critical + spread" },
+        { label: "Traditional", hint: "Limited IT role" },
+        { label: "Opportunistic", hint: "Spread, less critical" },
+      ],
+    },
+    related: ["mcfarlan-matrix", "it-governance"],
+  },
+  {
+    id: "traditional-vs-reframed-quests",
+    title: "Traditional and Reframed IS/IT Quests",
+    topicId: "introduction",
+    summary:
+      "Reframes stable-environment alignment, integration and impact for continuously changing contexts.",
+    detail: {
+      components: [
+        "Traditional: alignment, integration, impact",
+        "Reframed: co-evolution, reconfiguration, renewal",
+      ],
+      comparisons: [
+        { left: "Alignment", right: "Co-evolution", note: "Dynamic repositioning with the environment." },
+        { left: "Integration", right: "Reconfiguration", note: "Break and rebuild arrangements as needed." },
+        { left: "Impact", right: "Renewal", note: "Replace fading advantages repeatedly." },
+      ],
+      examTraps: ["The reframed view does not assume a stable market or permanent advantage."],
+    },
+    visual: {
+      kind: "compareColumns",
+      leftTitle: "Traditional",
+      rightTitle: "Reframed",
+      rows: [
+        { left: "Alignment", right: "Co-evolution" },
+        { left: "Integration", right: "Reconfiguration" },
+        { left: "Impact", right: "Renewal" },
+      ],
+    },
+    related: ["digital-disruption", "competitive-advantage-is"],
+  },
+  {
+    id: "it-enabler-vs-is-advantage",
+    title: "IT Enabler, IS Advantage and Information Advantage",
+    topicId: "introduction",
+    summary:
+      "Technology alone enables change; process and information use make an advantage harder to copy.",
+    detail: {
+      comparisons: [
+        { left: "IT enabler", right: "Short-term advantage", note: "A readily available technology." },
+        {
+          left: "IS advantage",
+          right: "Harder-to-copy process change",
+          note: "Combines technology with organizational routines.",
+        },
+        {
+          left: "Information advantage",
+          right: "Potentially sustainable value",
+          note: "Improves products, services or decisions.",
+        },
+      ],
+      examples: [
+        "A CRM package is an enabler; a distinctive data-driven service process can be an IS advantage.",
+      ],
+      examTraps: ["Buying the same technology as competitors is not by itself competitive advantage."],
+    },
+    related: ["resource-based-view", "competitive-advantage-is"],
+  },
+  {
+    id: "it-cmf-overview",
+    title: "IT-CMF Overview",
+    topicId: "itcmf",
+    summary: "IT-CMF is a capability maturity framework for managing IT as a business and improving its value.",
+    detail: {
+      definition:
+        "The IT Capability Maturity Framework organizes critical IT management capabilities and assesses their maturity.",
+      components: [
+        "Managing IT like a business",
+        "Managing the IT budget",
+        "Managing IT for business value",
+        "Managing IT capability",
+      ],
+      examTraps: ["IT-CMF is broader than a service-management or project-delivery method."],
+    },
+    related: [
+      "it-cmf-macro-capabilities",
+      "it-cmf-maturity-levels",
+      "it-cmf-critical-capabilities",
+      "cc-bar",
+    ],
+  },
+  {
+    id: "it-cmf-macro-capabilities",
+    title: "IT-CMF Macro-Capabilities",
+    topicId: "itcmf",
+    summary: "Four high-level lenses organize how IT is governed, funded, valued and developed.",
+    detail: {
+      components: [
+        "Managing IT like a business",
+        "Managing the IT budget",
+        "Managing IT for business value",
+        "Managing IT capability",
+      ],
+      examples: ["BAR supports value realization; PAM develops people assets; TCO exposes costs."],
+      examTraps: ["Macro-capabilities are umbrellas; they are not individual Critical Capabilities."],
+    },
+    visual: {
+      kind: "chips",
+      items: ["IT as a business", "IT budget", "Business value", "IT capability"],
+    },
+    related: ["it-cmf-overview", "it-cmf-maturity-levels", "it-cmf-critical-capabilities"],
+  },
+  {
+    id: "it-cmf-maturity-levels",
+    title: "IT-CMF Maturity Levels",
+    topicId: "itcmf",
+    summary: "Maturity levels indicate increasingly disciplined and optimized capability performance.",
+    detail: {
+      components: ["1 Initial", "2 Basic", "3 Intermediate", "4 Advanced", "5 Optimizing"],
+      examTraps: ["Maturity measures capability practices, not the age or sophistication of a technology."],
+    },
+    visual: {
+      kind: "flow",
+      items: ["Initial", "Basic", "Intermediate", "Advanced", "Optimizing"],
+    },
+    related: ["it-cmf-overview", "it-cmf-macro-capabilities"],
+  },
 ];

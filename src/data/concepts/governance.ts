@@ -1,7 +1,108 @@
 import type { Concept } from "../types";
+
 export const governanceConcepts: Concept[] = [
-  { id: "cobit-governance-vs-management", title: "COBIT: Governance versus Management", topicId: "governance", summary: "COBIT separates governance, which sets direction and monitors outcomes, from management, which executes.", detail: { comparisons: [{ left: "Governance", right: "EDM: Evaluate, Direct, Monitor" }, { left: "Management", right: "APO, BAI, DSS, MEA", note: "Plan, build, run and monitor activities." }], examTraps: ["EDM is governance; APO/BAI/DSS/MEA are management.", "COBIT complements rather than replaces ITIL."] }, related: ["cobit-edm", "cobit-management-domains", "it-governance"] },
-  { id: "cobit-edm", title: "COBIT EDM Governance Domain", topicId: "governance", summary: "EDM evaluates needs, directs priorities and monitors performance and conformance.", detail: { components: ["EDM01 Governance framework", "EDM02 Benefits delivery", "EDM03 Risk optimization", "EDM04 Resource optimization", "EDM05 Stakeholder engagement"], examTraps: ["EDM03 is risk optimization, but responsibility for daily operational risk treatment sits in management."] }, related: ["cobit-governance-vs-management", "it-governance"] },
-  { id: "cobit-management-domains", title: "COBIT Management Domains", topicId: "governance", summary: "The four management domains translate governance direction into operational management.", detail: { components: ["APO: Align, Plan, Organize", "BAI: Build, Acquire, Implement", "DSS: Deliver, Service, Support", "MEA: Monitor, Evaluate, Assess"], examTraps: ["MEA belongs to management even though it includes monitoring; EDM remains the governance domain."] }, related: ["cobit-governance-vs-management", "itil-lifecycle"] },
-  { id: "it-governance", title: "IT Governance", topicId: "governance", summary: "IT governance defines decision rights and accountability to encourage desirable IT behavior.", detail: { definition: "Weill and Ross frame governance around who decides and who is accountable for IT use and outcomes.", components: ["Policies and objectives", "Decision rights", "Risk management", "Performance measurement", "Steering committee"], examTraps: ["Governance is not day-to-day incident management or programming standards."] }, related: ["cobit-governance-vs-management", "sisp-process", "mcfarlan-matrix"] },
+  {
+    id: "cobit-governance-vs-management",
+    title: "COBIT: Governance versus Management",
+    topicId: "governance",
+    summary:
+      "COBIT separates governance, which sets direction and monitors outcomes, from management, which executes.",
+    detail: {
+      comparisons: [
+        { left: "Governance", right: "EDM: Evaluate, Direct, Monitor" },
+        {
+          left: "Management",
+          right: "APO, BAI, DSS, MEA",
+          note: "Plan, build, run and monitor activities.",
+        },
+      ],
+      examTraps: [
+        "EDM is governance; APO/BAI/DSS/MEA are management.",
+        "COBIT complements rather than replaces ITIL.",
+      ],
+    },
+    visual: {
+      kind: "layers",
+      layers: [
+        {
+          title: "Governance — EDM",
+          subtitle: "Evaluate · Direct · Monitor",
+          items: ["Set direction", "Monitor outcomes"],
+          tone: "gov",
+        },
+        {
+          title: "Management",
+          subtitle: "Plan · Build · Run · Monitor",
+          items: ["APO", "BAI", "DSS", "MEA"],
+          tone: "mgmt",
+        },
+      ],
+    },
+    related: ["cobit-edm", "cobit-management-domains", "it-governance"],
+  },
+  {
+    id: "cobit-edm",
+    title: "COBIT EDM Governance Domain",
+    topicId: "governance",
+    summary: "EDM evaluates needs, directs priorities and monitors performance and conformance.",
+    detail: {
+      components: [
+        "EDM01 Governance framework",
+        "EDM02 Benefits delivery",
+        "EDM03 Risk optimization",
+        "EDM04 Resource optimization",
+        "EDM05 Stakeholder engagement",
+      ],
+      examTraps: [
+        "EDM03 is risk optimization, but responsibility for daily operational risk treatment sits in management.",
+      ],
+    },
+    related: ["cobit-governance-vs-management", "it-governance"],
+  },
+  {
+    id: "cobit-management-domains",
+    title: "COBIT Management Domains",
+    topicId: "governance",
+    summary: "The four management domains translate governance direction into operational management.",
+    detail: {
+      components: [
+        "APO: Align, Plan, Organize",
+        "BAI: Build, Acquire, Implement",
+        "DSS: Deliver, Service, Support",
+        "MEA: Monitor, Evaluate, Assess",
+      ],
+      examTraps: [
+        "MEA belongs to management even though it includes monitoring; EDM remains the governance domain.",
+      ],
+    },
+    visual: {
+      kind: "layers",
+      layers: [
+        { title: "APO", subtitle: "Align, Plan, Organize", tone: "mgmt" },
+        { title: "BAI", subtitle: "Build, Acquire, Implement", tone: "mgmt" },
+        { title: "DSS", subtitle: "Deliver, Service, Support", tone: "mgmt" },
+        { title: "MEA", subtitle: "Monitor, Evaluate, Assess", tone: "mgmt" },
+      ],
+    },
+    related: ["cobit-governance-vs-management", "itil-lifecycle"],
+  },
+  {
+    id: "it-governance",
+    title: "IT Governance",
+    topicId: "governance",
+    summary: "IT governance defines decision rights and accountability to encourage desirable IT behavior.",
+    detail: {
+      definition:
+        "Weill and Ross frame governance around who decides and who is accountable for IT use and outcomes.",
+      components: [
+        "Policies and objectives",
+        "Decision rights",
+        "Risk management",
+        "Performance measurement",
+        "Steering committee",
+      ],
+      examTraps: ["Governance is not day-to-day incident management or programming standards."],
+    },
+    related: ["cobit-governance-vs-management", "sisp-process", "mcfarlan-matrix"],
+  },
 ];
