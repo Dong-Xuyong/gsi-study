@@ -4,6 +4,7 @@ import impact from "./impact.json";
 import innovation from "./innovation.json";
 import introduction from "./introduction.json";
 import investments from "./investments.json";
+import itcmf from "./itcmf.json";
 import natives from "./natives.json";
 import portfolio from "./portfolio.json";
 import praxis from "./praxis.json";
@@ -14,6 +15,7 @@ import type { MindNode, TopicId } from "../types";
 
 export const trees: Record<TopicId, MindNode> = {
   introduction,
+  itcmf,
   strategy,
   process,
   alignment,

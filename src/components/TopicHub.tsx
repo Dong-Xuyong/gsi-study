@@ -1,4 +1,4 @@
-import { IT_CMF_QUESTIONS, topics } from "../data/topics";
+import { topics } from "../data/topics";
 import type { TopicId } from "../data/types";
 
 type Props = {
@@ -6,7 +6,7 @@ type Props = {
 };
 
 export function TopicHub({ onOpenTopic }: Props) {
-  const totalQs = topics.reduce((sum, t) => sum + t.questions, 0) + IT_CMF_QUESTIONS;
+  const totalQs = topics.reduce((sum, t) => sum + t.questions, 0);
 
   return (
     <div className="hub">
@@ -14,14 +14,13 @@ export function TopicHub({ onOpenTopic }: Props) {
         <p className="hub-brand">GSI</p>
         <h1>Mind map study</h1>
         <p className="hub-lead">
-          Navigate the 12 course topics. Tap a node for exam-ready concept notes. Prioritize
-          high-weight units ({totalQs} written questions).
+          Navigate course topics and all 36 IT-CMF Critical Capabilities. Prioritize high-weight
+          units ({totalQs} written questions).
         </p>
       </header>
 
       <div className="hub-note">
-        <strong>IT-CMF</strong> adds {IT_CMF_QUESTIONS} questions — covered with Introduction &amp;
-        capability cards.
+        Open <strong>IT-CMF</strong> for every Critical Capability definition (AA, BAR, TCO, SRP…).
       </div>
 
       <ul className="topic-grid">

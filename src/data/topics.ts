@@ -9,6 +9,7 @@ export const topics: {
   treeFile: TopicId;
 }[] = [
   { id: "introduction", code: "T01", title: "Introduction", questions: 3, weight: "high", treeFile: "introduction" },
+  { id: "itcmf", code: "IT-CMF", title: "IT-CMF Critical Capabilities", questions: 3, weight: "high", treeFile: "itcmf" },
   { id: "strategy", code: "T02", title: "IS/IT Strategy", questions: 2, weight: "medium", treeFile: "strategy" },
   { id: "process", code: "T03", title: "Strategy Process", questions: 1, weight: "low", treeFile: "process" },
   { id: "alignment", code: "T04", title: "Alignment", questions: 1, weight: "low", treeFile: "alignment" },
@@ -22,5 +23,5 @@ export const topics: {
   { id: "natives", code: "T12", title: "Digital Natives", questions: 1, weight: "low", treeFile: "natives" },
 ];
 
-/** IT-CMF adds three Introduction-topic questions to the study set. */
+/** Exam weight for the IT-CMF block (also reflected on the IT-CMF topic card). */
 export const IT_CMF_QUESTIONS = 3;

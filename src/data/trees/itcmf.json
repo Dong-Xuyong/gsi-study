@@ -1,0 +1,91 @@
+{
+  "id": "itcmf-critical-capabilities",
+  "label": "IT-CMF Critical Capabilities",
+  "conceptId": "it-cmf-critical-capabilities",
+  "children": [
+    {
+      "id": "itcmf-strategy-planning",
+      "label": "Strategy & planning",
+      "children": [
+        { "id": "itcmf-sp", "label": "SP — Strategic Planning", "conceptId": "cc-sp" },
+        { "id": "itcmf-bp", "label": "BP — Business Planning", "conceptId": "cc-bp" },
+        { "id": "itcmf-cam", "label": "CAM — Capability Assessment Management", "conceptId": "cc-cam" },
+        { "id": "itcmf-dsm", "label": "DSM — Demand and Supply Management", "conceptId": "cc-dsm" },
+        { "id": "itcmf-eam", "label": "EAM — Enterprise Architecture Management", "conceptId": "cc-eam" },
+        { "id": "itcmf-bpm", "label": "BPM — Business Process Management", "conceptId": "cc-bpm" },
+        { "id": "itcmf-cfp", "label": "CFP — Capacity Forecasting and Planning", "conceptId": "cc-cfp" }
+      ]
+    },
+    {
+      "id": "itcmf-people-knowledge",
+      "label": "People & knowledge",
+      "children": [
+        { "id": "itcmf-pam", "label": "PAM — People Asset Management", "conceptId": "cc-pam" },
+        { "id": "itcmf-utm", "label": "UTM — User Training Management", "conceptId": "cc-utm" },
+        { "id": "itcmf-kam", "label": "KAM — Knowledge Asset Management", "conceptId": "cc-kam" },
+        { "id": "itcmf-pdp", "label": "PDP — Personal Data Protection", "conceptId": "cc-pdp" },
+        { "id": "itcmf-ism", "label": "ISM — Information Security Management", "conceptId": "cc-ism" }
+      ]
+    },
+    {
+      "id": "itcmf-innovation-rd",
+      "label": "Innovation & R&D",
+      "children": [
+        { "id": "itcmf-rde", "label": "RDE — Research, Development and Engineering", "conceptId": "cc-rde" },
+        { "id": "itcmf-im", "label": "IM — Innovation Management", "conceptId": "cc-im" },
+        { "id": "itcmf-ued", "label": "UED — User Experience Design", "conceptId": "cc-ued" }
+      ]
+    },
+    {
+      "id": "itcmf-impact-value",
+      "label": "Impact & value",
+      "children": [
+        { "id": "itcmf-eim", "label": "EIM — Enterprise Information Management", "conceptId": "cc-eim" },
+        { "id": "itcmf-rm", "label": "RM — Risk Management", "conceptId": "cc-rm" },
+        { "id": "itcmf-bar", "label": "BAR — Benefits Assessment and Realization", "conceptId": "cc-bar" }
+      ]
+    },
+    {
+      "id": "itcmf-portfolio-projects",
+      "label": "Portfolio & projects",
+      "children": [
+        { "id": "itcmf-pm", "label": "PM — Portfolio Management", "conceptId": "cc-pm" },
+        { "id": "itcmf-ppp", "label": "PPP — Portfolio Planning and Prioritization", "conceptId": "cc-ppp" },
+        { "id": "itcmf-ppm", "label": "PPM — Programme and Project Management", "conceptId": "cc-ppm" }
+      ]
+    },
+    {
+      "id": "itcmf-investments-budget",
+      "label": "Investments & budget",
+      "children": [
+        { "id": "itcmf-aa", "label": "AA — Accounting and Allocation", "conceptId": "cc-aa" },
+        { "id": "itcmf-ff", "label": "FF — Funding and Financing", "conceptId": "cc-ff" },
+        { "id": "itcmf-bgm", "label": "BGM — Budget Management", "conceptId": "cc-bgm" },
+        { "id": "itcmf-bop", "label": "BOP — Budget Oversight and Performance Analysis", "conceptId": "cc-bop" },
+        { "id": "itcmf-tco", "label": "TCO — Total Cost of Ownership", "conceptId": "cc-tco" }
+      ]
+    },
+    {
+      "id": "itcmf-services-delivery",
+      "label": "Services & delivery",
+      "children": [
+        { "id": "itcmf-srp", "label": "SRP — Service Provisioning", "conceptId": "cc-srp" },
+        { "id": "itcmf-sd", "label": "SD — Solutions Delivery", "conceptId": "cc-sd" },
+        { "id": "itcmf-tim", "label": "TIM — Technical Infrastructure Management", "conceptId": "cc-tim" },
+        { "id": "itcmf-src", "label": "SRC — Sourcing", "conceptId": "cc-src" },
+        { "id": "itcmf-sai", "label": "SAI — Service Analytics and Intelligence", "conceptId": "cc-sai" }
+      ]
+    },
+    {
+      "id": "itcmf-governance-suppliers",
+      "label": "Governance & suppliers",
+      "children": [
+        { "id": "itcmf-itg", "label": "ITG — IT Leadership and Governance", "conceptId": "cc-itg" },
+        { "id": "itcmf-odp", "label": "ODP — Organization Design and Planning", "conceptId": "cc-odp" },
+        { "id": "itcmf-rem", "label": "REM — Relationship Management", "conceptId": "cc-rem" },
+        { "id": "itcmf-sum", "label": "SUM — Supplier Management", "conceptId": "cc-sum" },
+        { "id": "itcmf-git", "label": "GIT — Green Information Technology", "conceptId": "cc-git" }
+      ]
+    }
+  ]
+}
