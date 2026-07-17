@@ -271,20 +271,20 @@
   position: relative;
   z-index: 1;
   flex: 1 1 auto;
-  min-height: 42dvh;
-  height: 48dvh;
+  min-height: 58dvh;
+  height: 62dvh;
   background: transparent;
   touch-action: none;
 }
 
 .concept-rail {
   flex: 0 0 auto;
-  max-height: 42dvh;
+  max-height: 28dvh;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid var(--line);
   background: color-mix(in srgb, var(--paper) 92%, white);
-  padding: 0.75rem 0.85rem 1.25rem;
+  padding: 0.65rem 0.85rem 1rem;
 }
 
 .concept-rail__title {
@@ -395,7 +395,7 @@
 
 .mind-node__label {
   flex: 1;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   line-height: 1.2;
   font-weight: 600;
   display: -webkit-box;

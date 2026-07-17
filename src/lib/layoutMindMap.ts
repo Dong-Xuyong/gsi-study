@@ -2,8 +2,8 @@ import { Graph, layout } from "@dagrejs/dagre";
 import type { Edge, Node } from "@xyflow/react";
 import type { MindNode } from "../data/types";
 
-const NODE_WIDTH = 196;
-const NODE_HEIGHT = 56;
+const NODE_WIDTH = 188;
+const NODE_HEIGHT = 52;
 
 export type MindMapNodeData = {
   label: string;
@@ -28,6 +28,22 @@ function collectVisible(
   return rows;
 }
 
+export function findPathIds(root: MindNode, targetId: string): string[] | null {
+  if (root.id === targetId) return [root.id];
+  for (const child of root.children ?? []) {
+    const sub = findPathIds(child, targetId);
+    if (sub) return [root.id, ...sub];
+  }
+  return null;
+}
+
+/** Keep only the path to `nodeId` expanded so one branch stays readable on a phone. */
+export function pathExpandedIds(root: MindNode, nodeId: string): Set<string> {
+  const path = findPathIds(root, nodeId);
+  if (!path?.length) return defaultExpandedIds(root);
+  return new Set(path);
+}
+
 export function buildFlowElements(
   root: MindNode,
   expandedIds: Set<string>,
@@ -36,7 +52,7 @@ export function buildFlowElements(
   const visible = collectVisible(root, expandedIds);
   const g = new Graph();
   g.setDefaultEdgeLabel(() => ({}));
-  g.setGraph({ rankdir: "LR", nodesep: 28, ranksep: 64, marginx: 24, marginy: 24 });
+  g.setGraph({ rankdir: "LR", nodesep: 22, ranksep: 56, marginx: 20, marginy: 20 });
 
   for (const { node } of visible) {
     g.setNode(node.id, { width: NODE_WIDTH, height: NODE_HEIGHT });
@@ -91,16 +107,9 @@ export function buildFlowElements(
   return { nodes, edges };
 }
 
-/** Expand root and first level for an initial readable phone view. */
-export function defaultExpandedIds(root: MindNode, maxDepth = 1): Set<string> {
+/** Expand only the root so phones start with topic + first-level branches. */
+export function defaultExpandedIds(root: MindNode): Set<string> {
   const ids = new Set<string>();
-
-  function walk(node: MindNode, depth: number) {
-    if (depth > maxDepth) return;
-    if (node.children?.length) ids.add(node.id);
-    for (const child of node.children ?? []) walk(child, depth + 1);
-  }
-
-  walk(root, 0);
+  if (root.children?.length) ids.add(root.id);
   return ids;
 }

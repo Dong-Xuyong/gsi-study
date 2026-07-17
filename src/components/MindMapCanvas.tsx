@@ -14,7 +14,12 @@ import {
 import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useCallback, useState } from "react";
 import { enrichTree } from "../lib/enrichTree";
-import { buildFlowElements, defaultExpandedIds, type MindMapNodeData } from "../lib/layoutMindMap";
+import {
+  buildFlowElements,
+  defaultExpandedIds,
+  pathExpandedIds,
+  type MindMapNodeData,
+} from "../lib/layoutMindMap";
 import type { MindNode, TopicId } from "../data/types";
 import { MindNode as MindNodeView } from "./MindNode";
 import { NodeActivateContext } from "./NodeActivateContext";
@@ -30,12 +35,32 @@ type InnerProps = {
   onSelectNode: (node: MindNode) => void;
 };
 
+function useIsNarrow(maxWidth = 899) {
+  const [narrow, setNarrow] = useState(
+    () => typeof window !== "undefined" && window.matchMedia(`(max-width: ${maxWidth}px)`).matches,
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${maxWidth}px)`);
+    const onChange = () => setNarrow(mq.matches);
+    onChange();
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, [maxWidth]);
+
+  return narrow;
+}
+
 function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProps) {
   const enriched = useMemo(() => enrichTree(root), [root]);
-  const [expandedIds, setExpandedIds] = useState(() => defaultExpandedIds(enriched, 1));
+  const [expandedIds, setExpandedIds] = useState(() => defaultExpandedIds(enriched));
+  const [focusIds, setFocusIds] = useState<string[]>(() =>
+    [enriched.id, ...(enriched.children?.map((c) => c.id) ?? [])],
+  );
   const [nodes, setNodes, onNodesChange] = useNodesState<FlowNode>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([]);
   const { fitView } = useReactFlow();
+  const narrow = useIsNarrow();
 
   const findNode = useCallback(
     (id: string): MindNode | undefined => {
@@ -54,21 +79,34 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
     (id: string) => {
       const mind = findNode(id);
       if (!mind) return;
+
       if (mind.children?.length) {
         setExpandedIds((prev) => {
-          const next = new Set(prev);
-          if (next.has(mind.id)) next.delete(mind.id);
-          else next.add(mind.id);
-          return next;
+          if (prev.has(mind.id)) {
+            // Collapse this branch; keep ancestors so siblings stay visible.
+            const next = pathExpandedIds(enriched, mind.id);
+            next.delete(mind.id);
+            if (next.size === 0 && enriched.children?.length) next.add(enriched.id);
+            const parentId = [...next].at(-1) ?? enriched.id;
+            const parent = findNode(parentId) ?? enriched;
+            setFocusIds([parent.id, ...(parent.children?.map((c) => c.id) ?? [])]);
+            return next;
+          }
+
+          // Expand only the path to this node (accordion) so other branches collapse.
+          setFocusIds([mind.id, ...(mind.children?.map((c) => c.id) ?? [])]);
+          return pathExpandedIds(enriched, mind.id);
         });
       }
+
       onSelectNode(mind);
     },
-    [findNode, onSelectNode],
+    [enriched, findNode, onSelectNode],
   );
 
   useEffect(() => {
-    setExpandedIds(defaultExpandedIds(enriched, 1));
+    setExpandedIds(defaultExpandedIds(enriched));
+    setFocusIds([enriched.id, ...(enriched.children?.map((c) => c.id) ?? [])]);
   }, [topicId, enriched]);
 
   useEffect(() => {
@@ -78,9 +116,18 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
   }, [enriched, expandedIds, selectedNodeId, setNodes, setEdges]);
 
   useEffect(() => {
-    const t = window.setTimeout(() => fitView({ padding: 0.18, duration: 280 }), 60);
+    const t = window.setTimeout(() => {
+      fitView({
+        nodes: focusIds.map((id) => ({ id })),
+        padding: narrow ? 0.24 : 0.18,
+        duration: 280,
+        // Keep labels readable on phones instead of shrinking to fit every sibling.
+        maxZoom: narrow ? 0.95 : 1.15,
+        minZoom: narrow ? 0.55 : 0.35,
+      });
+    }, 80);
     return () => window.clearTimeout(t);
-  }, [topicId, expandedIds, fitView]);
+  }, [topicId, expandedIds, focusIds, fitView, narrow]);
 
   return (
     <NodeActivateContext.Provider value={activateNode}>
@@ -91,7 +138,7 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
         fitView
-        minZoom={0.2}
+        minZoom={narrow ? 0.5 : 0.25}
         maxZoom={1.8}
         panOnScroll
         zoomOnPinch
@@ -104,7 +151,9 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
       >
         <Background gap={22} size={1} color="var(--grid)" />
         <Controls showInteractive={false} />
-        <MiniMap pannable zoomable nodeColor={() => "#c6e3df"} maskColor="rgba(20, 32, 41, 0.35)" />
+        {!narrow ? (
+          <MiniMap pannable zoomable nodeColor={() => "#c6e3df"} maskColor="rgba(20, 32, 41, 0.35)" />
+        ) : null}
       </ReactFlow>
     </NodeActivateContext.Provider>
   );
