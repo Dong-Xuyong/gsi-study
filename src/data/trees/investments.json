@@ -1,0 +1,216 @@
+{
+  "id": "investments-is-it-investments",
+  "label": "IS/IT Investments",
+  "children": [
+    {
+      "id": "investments-priority-setting-policies",
+      "label": "Priority Setting Policies",
+      "children": [
+        {
+          "id": "investments-compete-with-other-business-investments",
+          "label": "Compete with other business investments"
+        },
+        {
+          "id": "investments-traditionally-evaluated-like-capital-projects",
+          "label": "Traditionally evaluated like capital projects"
+        },
+        {
+          "id": "investments-now-resemble-new-business-initiatives",
+          "label": "Now resemble new business initiatives"
+        },
+        {
+          "id": "investments-challenge-assessing-vs-other-investments",
+          "label": "Challenge: Assessing vs. other investments"
+        }
+      ]
+    },
+    {
+      "id": "investments-investment-appraisal",
+      "label": "Investment Appraisal",
+      "children": [
+        {
+          "id": "investments-pitfalls",
+          "label": "Pitfalls:",
+          "children": [
+            {
+              "id": "investments-delusional-optimism",
+              "label": "Delusional optimism"
+            },
+            {
+              "id": "investments-underestimated-costs",
+              "label": "Underestimated costs"
+            },
+            {
+              "id": "investments-overestimated-benefits",
+              "label": "Overestimated benefits"
+            }
+          ]
+        },
+        {
+          "id": "investments-tco-total-cost-of-ownership-often-ignored",
+          "label": "TCO (Total Cost of Ownership) often ignored"
+        }
+      ]
+    },
+    {
+      "id": "investments-financial-appraisal-methods",
+      "label": "Financial Appraisal Methods",
+      "children": [
+        {
+          "id": "investments-payback-period",
+          "label": "Payback Period"
+        },
+        {
+          "id": "investments-roi-return-on-investment",
+          "label": "ROI (Return on Investment)"
+        },
+        {
+          "id": "investments-npv-net-present-value",
+          "label": "NPV (Net Present Value)"
+        },
+        {
+          "id": "investments-irr-internal-rate-of-return",
+          "label": "IRR (Internal Rate of Return)"
+        },
+        {
+          "id": "investments-profitability-index",
+          "label": "Profitability Index"
+        }
+      ]
+    },
+    {
+      "id": "investments-benefits-management",
+      "label": "Benefits Management",
+      "children": [
+        {
+          "id": "investments-focus-realizing-potential-benefits",
+          "label": "Focus: Realizing potential benefits"
+        }
+      ]
+    },
+    {
+      "id": "investments-justification-types",
+      "label": "Justification Types",
+      "children": [
+        {
+          "id": "investments-it-applications",
+          "label": "IT Applications",
+          "children": [
+            {
+              "id": "investments-business-contribution-driven",
+              "label": "Business contribution-driven"
+            }
+          ]
+        },
+        {
+          "id": "investments-it-infrastructure",
+          "label": "IT Infrastructure",
+          "children": [
+            {
+              "id": "investments-harder-to-quantify-benefits",
+              "label": "Harder to quantify benefits"
+            },
+            {
+              "id": "investments-outsourcing-influence",
+              "label": "Outsourcing influence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investments-investment-risks",
+      "label": "Investment Risks",
+      "children": [
+        {
+          "id": "investments-technical-complexity-novelty-team-skills",
+          "label": "Technical: Complexity, novelty, team skills"
+        },
+        {
+          "id": "investments-financial-size-duration-cost-confidence",
+          "label": "Financial: Size, duration, cost confidence"
+        },
+        {
+          "id": "investments-organizational-commitment-process-changes",
+          "label": "Organizational: Commitment, process changes"
+        }
+      ]
+    },
+    {
+      "id": "investments-risk-reward-binomial",
+      "label": "Risk/Reward Binomial",
+      "children": [
+        {
+          "id": "investments-balance-risk-vs-expected-reward",
+          "label": "Balance risk vs. expected reward"
+        }
+      ]
+    },
+    {
+      "id": "investments-portfolio-management",
+      "label": "Portfolio Management",
+      "children": [
+        {
+          "id": "investments-priority-criteria",
+          "label": "Priority Criteria:",
+          "children": [
+            {
+              "id": "investments-importance-benefits",
+              "label": "Importance (benefits)"
+            },
+            {
+              "id": "investments-feasibility-resources",
+              "label": "Feasibility (resources)"
+            },
+            {
+              "id": "investments-likelihood-of-success-risks",
+              "label": "Likelihood of success (risks)",
+              "children": [
+                {
+                  "id": "investments-technical-new-tech-failures",
+                  "label": "Technical (new tech failures)"
+                },
+                {
+                  "id": "investments-financial-high-investment",
+                  "label": "Financial (high investment)"
+                },
+                {
+                  "id": "investments-organizational-change-resistance",
+                  "label": "Organizational (change resistance)"
+                },
+                {
+                  "id": "investments-high-uncertainty-all-risk-types",
+                  "label": "High uncertainty (all risk types)"
+                },
+                {
+                  "id": "investments-limited-by-scale-scope-to-minimize-risk",
+                  "label": "Limited by scale/scope to minimize risk"
+                },
+                {
+                  "id": "investments-organizational-vested-interests",
+                  "label": "Organizational (vested interests)"
+                },
+                {
+                  "id": "investments-low-technical-financial-risks-proven-tech",
+                  "label": "Low technical/financial risks (proven tech)"
+                },
+                {
+                  "id": "investments-minimal-routine-operations",
+                  "label": "Minimal (routine operations)"
+                }
+              ]
+            },
+            {
+              "id": "investments-free-market-competitive-roi-focus-e-g-cloud-cost-cutting",
+              "label": "Free-Market: Competitive ROI focus (e.g., cloud cost-cutting)."
+            },
+            {
+              "id": "investments-monopoly-internal-mandates-e-g-compliance-systems",
+              "label": "Monopoly: Internal mandates (e.g., compliance systems)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

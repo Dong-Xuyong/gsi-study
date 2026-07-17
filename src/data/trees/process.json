@@ -1,0 +1,246 @@
+{
+  "id": "process-is-it-strategy-process",
+  "label": "IS/IT Strategy Process",
+  "children": [
+    {
+      "id": "process-evolution-stages",
+      "label": "Evolution Stages",
+      "children": [
+        {
+          "id": "process-ad-hoc-chaos",
+          "label": "Ad-hoc Chaos",
+          "children": [
+            {
+              "id": "process-no-coordination",
+              "label": "No coordination"
+            },
+            {
+              "id": "process-project-by-project",
+              "label": "Project-by-project"
+            }
+          ]
+        },
+        {
+          "id": "process-management-wake-up",
+          "label": "Management Wake-up",
+          "children": [
+            {
+              "id": "process-crisis-driven-prioritization",
+              "label": "Crisis-driven prioritization"
+            }
+          ]
+        },
+        {
+          "id": "process-integrated-planning",
+          "label": "Integrated Planning",
+          "children": [
+            {
+              "id": "process-key-systems-focus",
+              "label": "Key systems focus"
+            }
+          ]
+        },
+        {
+          "id": "process-user-rebellion",
+          "label": "User Rebellion",
+          "children": [
+            {
+              "id": "process-shadow-it-emerges",
+              "label": "Shadow IT emerges"
+            }
+          ]
+        },
+        {
+          "id": "process-strategic-fusion",
+          "label": "Strategic Fusion",
+          "children": [
+            {
+              "id": "process-business-it-co-creation",
+              "label": "Business-IT co-creation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-core-components",
+      "label": "Core Components",
+      "children": [
+        {
+          "id": "process-use-functional",
+          "label": "Use (Functional)",
+          "children": [
+            {
+              "id": "process-align-it-apps-with-biz-goals",
+              "label": "Align IT apps with biz goals"
+            },
+            {
+              "id": "process-competitive-advantage-ids",
+              "label": "Competitive advantage IDs"
+            }
+          ]
+        },
+        {
+          "id": "process-resources-tech",
+          "label": "Resources (Tech)",
+          "children": [
+            {
+              "id": "process-opportunity-assessment",
+              "label": "Opportunity assessment"
+            },
+            {
+              "id": "process-capability-planning",
+              "label": "Capability planning"
+            }
+          ]
+        },
+        {
+          "id": "process-architecture-structural",
+          "label": "Architecture (Structural)",
+          "children": [
+            {
+              "id": "process-data-tech-blueprints",
+              "label": "Data/tech blueprints"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-common-barriers",
+      "label": "Common Barriers",
+      "children": [
+        {
+          "id": "process-lack-of-top-management-commitment",
+          "label": "Lack of top management commitment"
+        },
+        {
+          "id": "process-short-term-financial-focus",
+          "label": "Short-term financial focus"
+        },
+        {
+          "id": "process-it-literacy-gaps",
+          "label": "IT literacy gaps"
+        },
+        {
+          "id": "process-architecture-without-business-rationale",
+          "label": "Architecture without business rationale"
+        },
+        {
+          "id": "process-wish-lists-masquerading-as-strategy",
+          "label": "\"Wish lists\" masquerading as strategy"
+        }
+      ]
+    },
+    {
+      "id": "process-success-factors",
+      "label": "Success Factors",
+      "children": [
+        {
+          "id": "process-strong-cio-steering-committee",
+          "label": "Strong CIO/steering committee"
+        },
+        {
+          "id": "process-holistic-view-not-siloed",
+          "label": "Holistic view (not siloed)"
+        },
+        {
+          "id": "process-adaptive-to-contingencies",
+          "label": "Adaptive to contingencies"
+        },
+        {
+          "id": "process-user-involvement",
+          "label": "User involvement"
+        },
+        {
+          "id": "process-benefit-measurement-frameworks",
+          "label": "Benefit measurement frameworks"
+        }
+      ]
+    },
+    {
+      "id": "process-process-framework",
+      "label": "Process Framework",
+      "children": [
+        {
+          "id": "process-initiate",
+          "label": "Initiate",
+          "children": [
+            {
+              "id": "process-stakeholder-engagement",
+              "label": "Stakeholder engagement"
+            },
+            {
+              "id": "process-environmental-scan",
+              "label": "Environmental scan"
+            }
+          ]
+        },
+        {
+          "id": "process-analyze",
+          "label": "Analyze",
+          "children": [
+            {
+              "id": "process-business-strategy-is-needs",
+              "label": "Business strategy → IS needs"
+            },
+            {
+              "id": "process-current-systems-audit",
+              "label": "Current systems audit"
+            }
+          ]
+        },
+        {
+          "id": "process-design",
+          "label": "Design",
+          "children": [
+            {
+              "id": "process-target-architectures",
+              "label": "Target architectures"
+            },
+            {
+              "id": "process-roadmap-creation",
+              "label": "Roadmap creation"
+            }
+          ]
+        },
+        {
+          "id": "process-implement",
+          "label": "Implement",
+          "children": [
+            {
+              "id": "process-governance-structures",
+              "label": "Governance structures"
+            },
+            {
+              "id": "process-change-management",
+              "label": "Change management"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-key-insights",
+      "label": "Key Insights",
+      "children": [
+        {
+          "id": "process-not-one-size-fits-all-contingent",
+          "label": "\"Not one-size-fits-all\" (contingent)"
+        },
+        {
+          "id": "process-requires-both-technical-and-business-mindsets",
+          "label": "Requires both technical AND business mindsets"
+        },
+        {
+          "id": "process-maturity-takes-years-stage-5-is-rare",
+          "label": "Maturity takes years (stage 5 is rare)"
+        },
+        {
+          "id": "process-politics-often-derail-alignment",
+          "label": "Politics often derail alignment"
+        }
+      ]
+    }
+  ]
+}

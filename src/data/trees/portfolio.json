@@ -1,0 +1,296 @@
+{
+  "id": "portfolio-is-it-portfolio-management",
+  "label": "IS/IT Portfolio Management",
+  "children": [
+    {
+      "id": "portfolio-portfolio-types",
+      "label": "Portfolio Types",
+      "children": [
+        {
+          "id": "portfolio-high-potential",
+          "label": "High Potential",
+          "children": [
+            {
+              "id": "portfolio-new-tech-business-ideas",
+              "label": "New tech/business ideas"
+            },
+            {
+              "id": "portfolio-rapid-prototyping",
+              "label": "Rapid prototyping"
+            },
+            {
+              "id": "portfolio-product-champion-driven",
+              "label": "\"Product champion\" driven"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-strategic",
+          "label": "Strategic",
+          "children": [
+            {
+              "id": "portfolio-competitive-advantage-focus",
+              "label": "Competitive advantage focus"
+            },
+            {
+              "id": "portfolio-market-driven-development",
+              "label": "Market-driven development"
+            },
+            {
+              "id": "portfolio-flexible-systems-needed",
+              "label": "Flexible systems needed"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-key-operational",
+          "label": "Key Operational",
+          "children": [
+            {
+              "id": "portfolio-core-process-optimization",
+              "label": "Core process optimization"
+            },
+            {
+              "id": "portfolio-risk-regulation-compliance",
+              "label": "Risk/regulation compliance"
+            },
+            {
+              "id": "portfolio-long-life-solutions",
+              "label": "Long-life solutions"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-support",
+          "label": "Support",
+          "children": [
+            {
+              "id": "portfolio-productivity-tools",
+              "label": "Productivity tools"
+            },
+            {
+              "id": "portfolio-packaged-software",
+              "label": "Packaged software"
+            },
+            {
+              "id": "portfolio-bpo-candidates",
+              "label": "BPO candidates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-management-strategies",
+      "label": "Management Strategies",
+      "children": [
+        {
+          "id": "portfolio-1-centrally-planned",
+          "label": "1. Centrally Planned",
+          "children": [
+            {
+              "id": "portfolio-top-down-coordination",
+              "label": "Top-down coordination"
+            },
+            {
+              "id": "portfolio-best-for-strategic-apps",
+              "label": "Best for strategic apps"
+            },
+            {
+              "id": "portfolio-requires-strong-it-business-alignment",
+              "label": "Requires strong IT-business alignment"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-2-leading-edge",
+          "label": "2. Leading Edge",
+          "children": [
+            {
+              "id": "portfolio-high-risk-innovation",
+              "label": "High-risk innovation"
+            },
+            {
+              "id": "portfolio-confined-to-high-potential-quadrant",
+              "label": "Confined to high-potential quadrant"
+            },
+            {
+              "id": "portfolio-counterbalance-vendor-hype",
+              "label": "Counterbalance vendor hype"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-3-free-market",
+          "label": "3. Free Market",
+          "children": [
+            {
+              "id": "portfolio-user-driven-decisions",
+              "label": "User-driven decisions"
+            },
+            {
+              "id": "portfolio-risk-of-duplication",
+              "label": "Risk of duplication"
+            },
+            {
+              "id": "portfolio-fit-for-support-apps",
+              "label": "Fit for support apps"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-4-monopoly",
+          "label": "4. Monopoly",
+          "children": [
+            {
+              "id": "portfolio-centralized-utility-model",
+              "label": "Centralized utility model"
+            },
+            {
+              "id": "portfolio-enforced-single-sourcing",
+              "label": "Enforced single sourcing"
+            },
+            {
+              "id": "portfolio-key-operational-focus",
+              "label": "Key operational focus"
+            }
+          ]
+        },
+        {
+          "id": "portfolio-5-scarce-resource",
+          "label": "5. Scarce Resource",
+          "children": [
+            {
+              "id": "portfolio-strict-cost-control",
+              "label": "Strict cost control"
+            },
+            {
+              "id": "portfolio-point-solutions-emphasis",
+              "label": "Point solutions emphasis"
+            },
+            {
+              "id": "portfolio-roi-justification-required",
+              "label": "ROI justification required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-lifecycle-dynamics",
+      "label": "Lifecycle Dynamics",
+      "children": [
+        {
+          "id": "portfolio-evolution-path",
+          "label": "Evolution Path:"
+        },
+        {
+          "id": "portfolio-boundary-crossings",
+          "label": "Boundary Crossings:"
+        },
+        {
+          "id": "portfolio-enhancement-rate",
+          "label": "Enhancement Rate:"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-enterprise-systems-reality",
+      "label": "Enterprise Systems Reality",
+      "children": [
+        {
+          "id": "portfolio-cross-portfolio-impact",
+          "label": "Cross-portfolio impact"
+        },
+        {
+          "id": "portfolio-business-transformation-it-project",
+          "label": "Business transformation ≠ IT project"
+        },
+        {
+          "id": "portfolio-common-failure-causes",
+          "label": "Common failure causes:",
+          "children": [
+            {
+              "id": "portfolio-organizational-resistance",
+              "label": "Organizational resistance"
+            },
+            {
+              "id": "portfolio-change-management-gaps",
+              "label": "Change management gaps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-key-insights",
+      "label": "Key Insights",
+      "children": [
+        {
+          "id": "portfolio-no-one-size-fits-all-strategy",
+          "label": "No \"one-size-fits-all\" strategy"
+        },
+        {
+          "id": "portfolio-most-orgs-use-multiple-strategies-simultaneously",
+          "label": "Most orgs use multiple strategies simultaneously"
+        },
+        {
+          "id": "portfolio-portfolio-tech-classification-focus-on-business-contribution",
+          "label": "Portfolio ≠ tech classification (focus on business contribution)"
+        },
+        {
+          "id": "portfolio-myth-1-not-all-strategic-systems-are-siss",
+          "label": "Myth 1: Not all strategic systems are SISs."
+        },
+        {
+          "id": "portfolio-myth-2-luck-and-experimentation-play-roles",
+          "label": "Myth 2: Luck and experimentation play roles."
+        },
+        {
+          "id": "portfolio-myth-3-advantages-fade-fast-keep-innovating",
+          "label": "Myth 3: Advantages fade fast—keep innovating!"
+        },
+        {
+          "id": "portfolio-myth-4-innovation-needs-teamwork-e-g-biz-it",
+          "label": "Myth 4: Innovation needs teamwork (e.g., biz + IT)."
+        },
+        {
+          "id": "portfolio-myth-5-small-tweaks-can-have-big-impacts",
+          "label": "Myth 5: Small tweaks can have big impacts."
+        },
+        {
+          "id": "portfolio-myth-6-it-failures-are-costly-time-money-reputation",
+          "label": "Myth 6: IT failures are costly (time, money, reputation)."
+        },
+        {
+          "id": "portfolio-myth-7-it-is-a-tool-not-a-magic-wand",
+          "label": "Myth 7: IT is a tool, not a magic wand."
+        },
+        {
+          "id": "portfolio-siss-aren-t-everything",
+          "label": "SISs aren’t everything"
+        },
+        {
+          "id": "portfolio-plans-aren-t-perfect",
+          "label": "Plans aren’t perfect"
+        },
+        {
+          "id": "portfolio-advantage-isn-t-forever",
+          "label": "Advantage isn’t forever"
+        },
+        {
+          "id": "portfolio-risk-exists",
+          "label": "Risk exists"
+        },
+        {
+          "id": "portfolio-know-teamwork-drives-innovation",
+          "label": "Know teamwork drives innovation"
+        },
+        {
+          "id": "portfolio-i-t-alone-isn-t-enough",
+          "label": "I.T. alone isn’t enough"
+        }
+      ]
+    }
+  ]
+}

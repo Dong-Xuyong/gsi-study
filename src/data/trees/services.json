@@ -1,0 +1,886 @@
+{
+  "id": "services-lifecycle-phases",
+  "label": "Lifecycle Phases",
+  "children": [
+    {
+      "id": "services-project-phase",
+      "label": "Project Phase",
+      "children": [
+        {
+          "id": "services-focus-delivering-changes",
+          "label": "Focus: Delivering changes"
+        },
+        {
+          "id": "services-key-activities",
+          "label": "Key Activities:",
+          "children": [
+            {
+              "id": "services-business-cases",
+              "label": "Business Cases"
+            },
+            {
+              "id": "services-evaluate-decide",
+              "label": "Evaluate/Decide"
+            },
+            {
+              "id": "services-execute-deploy",
+              "label": "Execute/Deploy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-service-phase",
+      "label": "Service Phase",
+      "children": [
+        {
+          "id": "services-focus-sustaining-benefits",
+          "label": "Focus: Sustaining benefits"
+        },
+        {
+          "id": "services-key-activities-2",
+          "label": "Key Activities:",
+          "children": [
+            {
+              "id": "services-deliver-bau",
+              "label": "Deliver (BAU)"
+            },
+            {
+              "id": "services-continuous-improvement",
+              "label": "Continuous Improvement"
+            },
+            {
+              "id": "services-innovation-change",
+              "label": "Innovation/Change"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-governance-transparency",
+      "label": "Governance & Transparency",
+      "children": [
+        {
+          "id": "services-portfolio-management",
+          "label": "Portfolio Management",
+          "children": [
+            {
+              "id": "services-service-portfolio",
+              "label": "Service Portfolio"
+            },
+            {
+              "id": "services-project-portfolio",
+              "label": "Project Portfolio"
+            }
+          ]
+        },
+        {
+          "id": "services-value-transparency",
+          "label": "Value Transparency",
+          "children": [
+            {
+              "id": "services-real-cost-of-it",
+              "label": "Real cost of IT"
+            },
+            {
+              "id": "services-business-value-tracking",
+              "label": "Business value tracking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-delivery-models",
+      "label": "Delivery Models",
+      "children": [
+        {
+          "id": "services-in-house-is-team",
+          "label": "In-house IS Team"
+        },
+        {
+          "id": "services-external-suppliers",
+          "label": "External Suppliers"
+        },
+        {
+          "id": "services-hybrid-in-house-outsourced",
+          "label": "Hybrid (In-house + Outsourced)"
+        }
+      ]
+    },
+    {
+      "id": "services-service-categories",
+      "label": "Service Categories",
+      "children": [
+        {
+          "id": "services-front-office-services-customer-facing",
+          "label": "Front-Office Services (Customer-Facing)",
+          "children": [
+            {
+              "id": "services-application-services",
+              "label": "Application Services",
+              "children": [
+                {
+                  "id": "services-software-apps-direct-business-impact",
+                  "label": "Software apps → Direct business impact"
+                },
+                {
+                  "id": "services-examples-crm-erp-data-analytics-tools",
+                  "label": "Examples: CRM, ERP, data analytics tools"
+                }
+              ]
+            },
+            {
+              "id": "services-value-enabling-services",
+              "label": "Value-Enabling Services",
+              "children": [
+                {
+                  "id": "services-boost-info-assets-identify-it-opportunities",
+                  "label": "Boost info assets & identify IT opportunities"
+                },
+                {
+                  "id": "services-examples-it-strategy-business-analysis-ux-design",
+                  "label": "Examples: IT strategy, business analysis, UX design"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-back-office-services-support",
+          "label": "Back-Office Services (Support)",
+          "children": [
+            {
+              "id": "services-operational-services",
+              "label": "Operational Services",
+              "children": [
+                {
+                  "id": "services-core-it-environment-maintenance",
+                  "label": "Core IT environment maintenance"
+                },
+                {
+                  "id": "services-examples-server-monitoring-software-upgrades-helpdesk",
+                  "label": "Examples: Server monitoring, software upgrades, helpdesk"
+                }
+              ]
+            },
+            {
+              "id": "services-infrastructure-services",
+              "label": "Infrastructure Services",
+              "children": [
+                {
+                  "id": "services-foundational-it-utilities",
+                  "label": "Foundational IT utilities"
+                },
+                {
+                  "id": "services-examples-storage-bandwidth-backups",
+                  "label": "Examples: Storage, bandwidth, backups"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-service-providers",
+      "label": "Service Providers",
+      "children": [
+        {
+          "id": "services-internal-teams-in-house-it",
+          "label": "Internal Teams (In-house IT)"
+        },
+        {
+          "id": "services-external-vendors-outsourced",
+          "label": "External Vendors (Outsourced)"
+        },
+        {
+          "id": "services-hybrid-model-mix-of-both",
+          "label": "Hybrid Model (Mix of both)"
+        }
+      ]
+    },
+    {
+      "id": "services-key-relationships",
+      "label": "Key Relationships",
+      "children": [
+        {
+          "id": "services-business-strategy-value-enabling-services",
+          "label": "Business Strategy Value-Enabling Services",
+          "children": [
+            {
+              "id": "services-align-it-with-long-term-goals",
+              "label": "Align IT with long-term goals"
+            }
+          ]
+        },
+        {
+          "id": "services-operations-application-infra-services",
+          "label": "Operations Application/Infra Services",
+          "children": [
+            {
+              "id": "services-daily-workflows-depend-on-apps-infra",
+              "label": "Daily workflows depend on apps & infra"
+            }
+          ]
+        },
+        {
+          "id": "services-providers-all-services",
+          "label": "Providers All Services",
+          "children": [
+            {
+              "id": "services-who-delivers-internal-external",
+              "label": "Who delivers? (Internal/external)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-core-pillars-of-service-management",
+      "label": "Core Pillars of Service Management",
+      "children": [
+        {
+          "id": "services-value-to-business",
+          "label": "Value to Business",
+          "children": [
+            {
+              "id": "services-performance-metrics",
+              "label": "Performance metrics"
+            },
+            {
+              "id": "services-cost-vs-investment",
+              "label": "Cost vs. investment"
+            },
+            {
+              "id": "services-organizational-alignment",
+              "label": "Organizational alignment"
+            }
+          ]
+        },
+        {
+          "id": "services-service-delivery",
+          "label": "Service Delivery",
+          "children": [
+            {
+              "id": "services-responsiveness",
+              "label": "Responsiveness"
+            },
+            {
+              "id": "services-process-efficiency",
+              "label": "Process efficiency"
+            },
+            {
+              "id": "services-resource-knowledge-management",
+              "label": "Resource/knowledge management"
+            }
+          ]
+        },
+        {
+          "id": "services-service-design",
+          "label": "Service Design",
+          "children": [
+            {
+              "id": "services-availability-reliability",
+              "label": "Availability & reliability"
+            },
+            {
+              "id": "services-user-access-ease-of-use",
+              "label": "User access & ease of use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-managing-back-office-services",
+      "label": "Managing Back-Office Services",
+      "children": [
+        {
+          "id": "services-operational-services-2",
+          "label": "Operational Services",
+          "children": [
+            {
+              "id": "services-security-network-maintenance-compliance",
+              "label": "Security, network maintenance, compliance"
+            },
+            {
+              "id": "services-best-for-outsourcing-e-g-cloud-providers",
+              "label": "Best for outsourcing (e.g., cloud providers)"
+            }
+          ]
+        },
+        {
+          "id": "services-value-enabling-services-2",
+          "label": "Value-Enabling Services",
+          "children": [
+            {
+              "id": "services-help-desk-training-strategy-development",
+              "label": "Help desk, training, strategy development"
+            },
+            {
+              "id": "services-low-user-involvement-standardized-slas",
+              "label": "Low user involvement → Standardized (SLAs)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-service-delivery-models",
+      "label": "Service Delivery Models"
+    },
+    {
+      "id": "services-why-outsource",
+      "label": "Why Outsource?",
+      "children": [
+        {
+          "id": "services-1-financial-reasons",
+          "label": "1. Financial Reasons",
+          "children": [
+            {
+              "id": "services-capex-opex-shift",
+              "label": "CapEx → OpEx shift"
+            },
+            {
+              "id": "services-cost-savings",
+              "label": "Cost savings"
+            },
+            {
+              "id": "services-roi-full-outsourcing",
+              "label": "↑ ROI (full outsourcing)"
+            }
+          ]
+        },
+        {
+          "id": "services-2-business-reasons",
+          "label": "2. Business Reasons",
+          "children": [
+            {
+              "id": "services-fix-broken-it-depts",
+              "label": "Fix broken IT depts"
+            },
+            {
+              "id": "services-handle-demand-spikes",
+              "label": "Handle demand spikes"
+            },
+            {
+              "id": "services-reduce-backlog",
+              "label": "Reduce backlog"
+            }
+          ]
+        },
+        {
+          "id": "services-3-technical-reasons",
+          "label": "3. Technical Reasons",
+          "children": [
+            {
+              "id": "services-access-rare-skills",
+              "label": "Access rare skills"
+            },
+            {
+              "id": "services-faster-delivery-contract-driven",
+              "label": "Faster delivery (contract-driven)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-outsourcing-models",
+      "label": "Outsourcing Models",
+      "children": [
+        {
+          "id": "services-supplier-grouping",
+          "label": "Supplier Grouping",
+          "children": [
+            {
+              "id": "services-sole-provider-simple-but-risky",
+              "label": "Sole provider (simple but risky)"
+            },
+            {
+              "id": "services-prime-contractor-subcontractors",
+              "label": "Prime contractor (+subcontractors)"
+            },
+            {
+              "id": "services-best-of-breed-mix-specialists",
+              "label": "Best-of-breed (mix specialists)"
+            },
+            {
+              "id": "services-panel-pre-vetted-options",
+              "label": "Panel (pre-vetted options)"
+            }
+          ]
+        },
+        {
+          "id": "services-pricing-options",
+          "label": "Pricing Options",
+          "children": [
+            {
+              "id": "services-fixed-price-predictable",
+              "label": "Fixed price (predictable)"
+            },
+            {
+              "id": "services-unit-pricing-pay-per-use",
+              "label": "Unit pricing (pay-per-use)"
+            },
+            {
+              "id": "services-cost-plus-transparent",
+              "label": "Cost-plus (transparent)"
+            }
+          ]
+        },
+        {
+          "id": "services-duration",
+          "label": "Duration",
+          "children": [
+            {
+              "id": "services-single-term-clean-break",
+              "label": "Single-term (clean break)"
+            },
+            {
+              "id": "services-rollover-extendable",
+              "label": "Rollover (extendable)"
+            },
+            {
+              "id": "services-evergreen-auto-renew",
+              "label": "Evergreen (auto-renew)"
+            }
+          ]
+        },
+        {
+          "id": "services-relationships",
+          "label": "Relationships",
+          "children": [
+            {
+              "id": "services-arms-length-strictly-business",
+              "label": "Arms-length (strictly business)"
+            },
+            {
+              "id": "services-value-add-shared-goals",
+              "label": "Value-add (shared goals)"
+            },
+            {
+              "id": "services-co-sourced-blended-teams",
+              "label": "Co-sourced (blended teams)"
+            },
+            {
+              "id": "services-equity-joint-ownership",
+              "label": "Equity (joint ownership)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-key-risks",
+      "label": "Key Risks",
+      "children": [
+        {
+          "id": "services-poor-vendor-management",
+          "label": "Poor vendor management"
+        },
+        {
+          "id": "services-hidden-costs",
+          "label": "Hidden costs"
+        },
+        {
+          "id": "services-loss-of-control",
+          "label": "Loss of control"
+        },
+        {
+          "id": "services-brain-drain-lost-skills",
+          "label": "Brain drain (lost skills)"
+        }
+      ]
+    },
+    {
+      "id": "services-backsourcing-triggers",
+      "label": "Backsourcing Triggers",
+      "children": [
+        {
+          "id": "services-it-becomes-strategic",
+          "label": "IT becomes strategic"
+        },
+        {
+          "id": "services-vendor-underperformance",
+          "label": "Vendor underperformance"
+        },
+        {
+          "id": "services-management-changes",
+          "label": "Management changes"
+        }
+      ]
+    },
+    {
+      "id": "services-must-keep-in-house",
+      "label": "Must-Keep In-House",
+      "children": [
+        {
+          "id": "services-business-it-alignment",
+          "label": "Business-IT alignment"
+        },
+        {
+          "id": "services-vendor-management-skills",
+          "label": "Vendor management skills"
+        },
+        {
+          "id": "services-tech-trend-analysis",
+          "label": "Tech trend analysis"
+        },
+        {
+          "id": "services-contract-oversight",
+          "label": "Contract oversight",
+          "children": [
+            {
+              "id": "services-supplier-grouping-2",
+              "label": "Supplier Grouping",
+              "children": [
+                {
+                  "id": "services-sole-supplier-one-stop-shop-but-risks-monopoly",
+                  "label": "Sole Supplier: \"One-stop shop\" but risks monopoly."
+                },
+                {
+                  "id": "services-prime-contractor-middleman-maestro-but-needs-subcontractor-diplomacy",
+                  "label": "Prime Contractor: \"Middleman maestro\" but needs subcontractor diplomacy."
+                },
+                {
+                  "id": "services-best-of-breed-mix-match-but-requires-integration-glue",
+                  "label": "Best-of-Breed: \"Mix & match\" but requires integration glue."
+                },
+                {
+                  "id": "services-panel-buffet-of-options-but-keep-suppliers-hungry",
+                  "label": "Panel: \"Buffet of options\" but keep suppliers hungry."
+                }
+              ]
+            },
+            {
+              "id": "services-pricing-models",
+              "label": "Pricing Models",
+              "children": [
+                {
+                  "id": "services-fixed-price-set-it-forget-it-but-scope-creep-lurks",
+                  "label": "Fixed Price: \"Set it & forget it\" but scope creep lurks."
+                },
+                {
+                  "id": "services-unit-pricing-pay-as-you-go-but-demand-can-explode",
+                  "label": "Unit Pricing: \"Pay as you go\" but demand can explode."
+                },
+                {
+                  "id": "services-cost-based-open-books-but-supplier-may-slack",
+                  "label": "Cost-Based: \"Open books\" but supplier may slack."
+                }
+              ]
+            },
+            {
+              "id": "services-duration-relationships",
+              "label": "Duration & Relationships",
+              "children": [
+                {
+                  "id": "services-evergreen-forever-contract-but-can-breed-laziness",
+                  "label": "Evergreen: \"Forever contract\" but can breed laziness."
+                },
+                {
+                  "id": "services-equity-marriage-of-interests-but-divorce-is-messy",
+                  "label": "Equity: \"Marriage of interests\" but divorce is messy."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-it-infrastructure-challenges",
+      "label": "IT Infrastructure Challenges",
+      "children": [
+        {
+          "id": "services-aligning-tech-investments-with-business-needs",
+          "label": "Aligning tech investments with business needs"
+        },
+        {
+          "id": "services-decoding-tech-hype-vs-real-value",
+          "label": "Decoding \"tech hype\" vs. real value"
+        },
+        {
+          "id": "services-benchmarking-against-competitors",
+          "label": "Benchmarking against competitors"
+        }
+      ]
+    },
+    {
+      "id": "services-key-challenges",
+      "label": "Key Challenges",
+      "children": [
+        {
+          "id": "services-no-competition-complacency",
+          "label": "No competition → Complacency"
+        },
+        {
+          "id": "services-24-7-availability-expectations",
+          "label": "24/7 Availability Expectations"
+        },
+        {
+          "id": "services-free-it-mentality",
+          "label": "\"Free IT\" Mentality",
+          "children": [
+            {
+              "id": "services-users-resist-paying",
+              "label": "Users resist paying"
+            },
+            {
+              "id": "services-unseen-resource-costs",
+              "label": "Unseen resource costs"
+            }
+          ]
+        },
+        {
+          "id": "services-intangibility-of-services",
+          "label": "Intangibility of Services"
+        },
+        {
+          "id": "services-is-it-service-management",
+          "label": "IS/IT Service Management",
+          "children": [
+            {
+              "id": "services-servqual-model-service-quality",
+              "label": "SERVQUAL Model (Service Quality)",
+              "children": [
+                {
+                  "id": "services-sq-p-e",
+                  "label": "SQ = P – E",
+                  "children": [
+                    {
+                      "id": "services-p-perceptions",
+                      "label": "P: Perceptions"
+                    },
+                    {
+                      "id": "services-e-expectations",
+                      "label": "E: Expectations"
+                    }
+                  ]
+                },
+                {
+                  "id": "services-5-dimensions",
+                  "label": "5 Dimensions:",
+                  "children": [
+                    {
+                      "id": "services-reliability",
+                      "label": "Reliability"
+                    },
+                    {
+                      "id": "services-assurance",
+                      "label": "Assurance"
+                    },
+                    {
+                      "id": "services-tangibles",
+                      "label": "Tangibles"
+                    },
+                    {
+                      "id": "services-empathy",
+                      "label": "Empathy"
+                    },
+                    {
+                      "id": "services-responsiveness-2",
+                      "label": "Responsiveness"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "services-itil-framework",
+              "label": "ITIL Framework",
+              "children": [
+                {
+                  "id": "services-core-books-strategy-design-transition-operation-improvement",
+                  "label": "Core Books: Strategy, Design, Transition, Operation, Improvement"
+                },
+                {
+                  "id": "services-practices",
+                  "label": "Practices:",
+                  "children": [
+                    {
+                      "id": "services-incident-management",
+                      "label": "Incident Management"
+                    },
+                    {
+                      "id": "services-change-control",
+                      "label": "Change Control"
+                    },
+                    {
+                      "id": "services-service-level-mgmt",
+                      "label": "Service Level Mgmt"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "services-it-infrastructure-mgmt",
+              "label": "IT Infrastructure Mgmt",
+              "children": [
+                {
+                  "id": "services-hardware-software-networks",
+                  "label": "Hardware/Software/Networks"
+                },
+                {
+                  "id": "services-policies-standards-governance",
+                  "label": "Policies & Standards (Governance)"
+                },
+                {
+                  "id": "services-linking-tech-to-business-needs",
+                  "label": "Linking tech to business needs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-is-it-sourcing",
+          "label": "IS/IT Sourcing",
+          "children": [
+            {
+              "id": "services-outsourcing-vs-insourcing",
+              "label": "Outsourcing vs. Insourcing",
+              "children": [
+                {
+                  "id": "services-reasons-to-outsource",
+                  "label": "Reasons to Outsource:",
+                  "children": [
+                    {
+                      "id": "services-cost-savings-2",
+                      "label": "Cost savings"
+                    },
+                    {
+                      "id": "services-access-to-expertise",
+                      "label": "Access to expertise"
+                    },
+                    {
+                      "id": "services-focus-on-core-biz",
+                      "label": "Focus on core biz"
+                    }
+                  ]
+                },
+                {
+                  "id": "services-risks",
+                  "label": "Risks:",
+                  "children": [
+                    {
+                      "id": "services-loss-of-control-2",
+                      "label": "Loss of control"
+                    },
+                    {
+                      "id": "services-hidden-costs-2",
+                      "label": "Hidden costs"
+                    },
+                    {
+                      "id": "services-vendor-lock-in",
+                      "label": "Vendor lock-in"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "services-sourcing-options",
+              "label": "Sourcing Options",
+              "children": [
+                {
+                  "id": "services-supplier-grouping-3",
+                  "label": "Supplier Grouping:",
+                  "children": [
+                    {
+                      "id": "services-best-of-breed",
+                      "label": "Best-of-Breed"
+                    },
+                    {
+                      "id": "services-prime-contractor",
+                      "label": "Prime Contractor"
+                    }
+                  ]
+                },
+                {
+                  "id": "services-pricing-models-2",
+                  "label": "Pricing Models:",
+                  "children": [
+                    {
+                      "id": "services-fixed-price",
+                      "label": "Fixed Price"
+                    },
+                    {
+                      "id": "services-unit-pricing",
+                      "label": "Unit Pricing"
+                    }
+                  ]
+                },
+                {
+                  "id": "services-duration-single-term-vs-evergreen",
+                  "label": "Duration: Single-term vs. Evergreen"
+                }
+              ]
+            },
+            {
+              "id": "services-backsourcing-triggers-2",
+              "label": "Backsourcing Triggers:",
+              "children": [
+                {
+                  "id": "services-it-becomes-strategic-2",
+                  "label": "IT becomes strategic"
+                },
+                {
+                  "id": "services-management-changes-2",
+                  "label": "Management changes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-is-it-risk-management",
+          "label": "IS/IT Risk Management",
+          "children": [
+            {
+              "id": "services-risk-types",
+              "label": "Risk Types:",
+              "children": [
+                {
+                  "id": "services-strategic",
+                  "label": "Strategic"
+                },
+                {
+                  "id": "services-operational",
+                  "label": "Operational"
+                },
+                {
+                  "id": "services-compliance",
+                  "label": "Compliance"
+                }
+              ]
+            },
+            {
+              "id": "services-mitigation",
+              "label": "Mitigation:",
+              "children": [
+                {
+                  "id": "services-governance",
+                  "label": "Governance"
+                },
+                {
+                  "id": "services-vendor-audits",
+                  "label": "Vendor audits"
+                },
+                {
+                  "id": "services-retain-core-competencies",
+                  "label": "Retain core competencies"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

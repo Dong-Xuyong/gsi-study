@@ -1,0 +1,578 @@
+{
+  "id": "strategy-competitive-strategy-in-is-it",
+  "label": "Competitive Strategy in IS/IT",
+  "children": [
+    {
+      "id": "strategy-strategy-concepts-mintzberg",
+      "label": "Strategy Concepts (Mintzberg)",
+      "children": [
+        {
+          "id": "strategy-five-ps-for-strategy",
+          "label": "Five Ps for Strategy",
+          "children": [
+            {
+              "id": "strategy-plan",
+              "label": "Plan"
+            },
+            {
+              "id": "strategy-pattern",
+              "label": "Pattern"
+            },
+            {
+              "id": "strategy-position",
+              "label": "Position"
+            },
+            {
+              "id": "strategy-perspective",
+              "label": "Perspective"
+            },
+            {
+              "id": "strategy-ploy",
+              "label": "Ploy"
+            }
+          ]
+        },
+        {
+          "id": "strategy-forms-of-strategy",
+          "label": "Forms of Strategy",
+          "children": [
+            {
+              "id": "strategy-intended-strategy",
+              "label": "Intended Strategy",
+              "children": [
+                {
+                  "id": "strategy-the-plan-you-start-with",
+                  "label": "The plan you start with"
+                }
+              ]
+            },
+            {
+              "id": "strategy-deliberate-strategy",
+              "label": "Deliberate Strategy",
+              "children": [
+                {
+                  "id": "strategy-the-part-of-the-intended-strategy-that-actually-happens",
+                  "label": "The part of the intended strategy that actually happens"
+                }
+              ]
+            },
+            {
+              "id": "strategy-emergent-strategy",
+              "label": "Emergent Strategy",
+              "children": [
+                {
+                  "id": "strategy-unplanned-responses-to-unexpected-situations",
+                  "label": "Unplanned responses to unexpected situations"
+                }
+              ]
+            },
+            {
+              "id": "strategy-unrealized-strategy",
+              "label": "Unrealized Strategy",
+              "children": [
+                {
+                  "id": "strategy-part-of-the-plan-that-doesn-t-happen",
+                  "label": "Part of the plan that doesn’t happen"
+                }
+              ]
+            },
+            {
+              "id": "strategy-realized-strategy",
+              "label": "Realized Strategy",
+              "children": [
+                {
+                  "id": "strategy-final-result-from-deliberate-emergent-strategies",
+                  "label": "Final result from deliberate + emergent strategies"
+                }
+              ]
+            },
+            {
+              "id": "strategy-learning-loop",
+              "label": "Learning Loop",
+              "children": [
+                {
+                  "id": "strategy-learning-transforms-intended-into-realized-through-interaction",
+                  "label": "Learning transforms intended into realized through interaction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategy-is-it-strategic-concepts",
+      "label": "IS/IT Strategic Concepts",
+      "children": [
+        {
+          "id": "strategy-is-capability",
+          "label": "IS Capability",
+          "children": [
+            {
+              "id": "strategy-detect-opportunities-threats",
+              "label": "Detect opportunities & threats"
+            },
+            {
+              "id": "strategy-respond-in-time",
+              "label": "Respond in time"
+            },
+            {
+              "id": "strategy-ensure-value-delivery-not-just-strategy-building",
+              "label": "Ensure value delivery, not just strategy building"
+            },
+            {
+              "id": "strategy-fuse-business-is-it-knowledge",
+              "label": "Fuse business + IS/IT knowledge"
+            },
+            {
+              "id": "strategy-flexible-reusable-it-platform",
+              "label": "Flexible & reusable IT platform"
+            },
+            {
+              "id": "strategy-link-is-it-assets-to-value-realization",
+              "label": "Link IS/IT assets to value realization"
+            }
+          ]
+        },
+        {
+          "id": "strategy-competitive-dynamics-of-is-it",
+          "label": "Competitive Dynamics of IS/IT",
+          "children": [
+            {
+              "id": "strategy-align-support-business-needs",
+              "label": "Align: support business needs"
+            },
+            {
+              "id": "strategy-shape-create-new-opportunities",
+              "label": "Shape: create new opportunities"
+            },
+            {
+              "id": "strategy-impact-build-competitive-advantages",
+              "label": "Impact: build competitive advantages"
+            },
+            {
+              "id": "strategy-redefine-change-competitor-strategies",
+              "label": "Redefine: change competitor strategies"
+            },
+            {
+              "id": "strategy-disrupt-change-the-rules-of-the-game",
+              "label": "Disrupt: change the rules of the game"
+            }
+          ]
+        },
+        {
+          "id": "strategy-sustainable-competitive-advantage",
+          "label": "Sustainable Competitive Advantage",
+          "children": [
+            {
+              "id": "strategy-is-it-a-mirage",
+              "label": "Is it a mirage?"
+            },
+            {
+              "id": "strategy-compare-vs-compete-sustainable-comparative-vs-competitive-advantage",
+              "label": "Compare vs. Compete: Sustainable comparative vs. competitive advantage"
+            },
+            {
+              "id": "strategy-resource-based-view-rbv",
+              "label": "Resource-Based View (RBV)",
+              "children": [
+                {
+                  "id": "strategy-valuable",
+                  "label": "Valuable"
+                },
+                {
+                  "id": "strategy-rare",
+                  "label": "Rare"
+                },
+                {
+                  "id": "strategy-inimitable",
+                  "label": "Inimitable"
+                },
+                {
+                  "id": "strategy-non-substitutable",
+                  "label": "Non-substitutable"
+                }
+              ]
+            },
+            {
+              "id": "strategy-only-sustainable-source-from-is-it-is-it-management-skills",
+              "label": "Only sustainable source from IS/IT: IS/IT management skills"
+            }
+          ]
+        },
+        {
+          "id": "strategy-generic-process-of-strategy-formulation",
+          "label": "Generic Process of Strategy Formulation",
+          "children": [
+            {
+              "id": "strategy-at-sbu-strategic-business-unit-level",
+              "label": "At SBU (Strategic Business Unit) level",
+              "children": [
+                {
+                  "id": "strategy-where-to-compete",
+                  "label": "Where to compete?"
+                },
+                {
+                  "id": "strategy-how-to-gain-an-advantage",
+                  "label": "How to gain an advantage?"
+                },
+                {
+                  "id": "strategy-what-assets-do-we-have",
+                  "label": "What assets do we have?"
+                },
+                {
+                  "id": "strategy-what-assets-are-required",
+                  "label": "What assets are required?"
+                },
+                {
+                  "id": "strategy-how-to-change",
+                  "label": "How to change?"
+                }
+              ]
+            },
+            {
+              "id": "strategy-at-corporate-level",
+              "label": "At Corporate Level",
+              "children": [
+                {
+                  "id": "strategy-portfolio-logic",
+                  "label": "Portfolio logic?"
+                },
+                {
+                  "id": "strategy-how-to-add-value-across-businesses",
+                  "label": "How to add value across businesses?"
+                },
+                {
+                  "id": "strategy-current-portfolio-performance",
+                  "label": "Current portfolio performance?"
+                },
+                {
+                  "id": "strategy-how-to-improve-the-portfolio",
+                  "label": "How to improve the portfolio?"
+                },
+                {
+                  "id": "strategy-which-changes-improve-shareholder-value",
+                  "label": "Which changes improve shareholder value?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-where-to-compete-2",
+          "label": "Where to Compete?",
+          "children": [
+            {
+              "id": "strategy-porter-s-5-forces",
+              "label": "Porter’s 5 Forces",
+              "children": [
+                {
+                  "id": "strategy-rivalry-among-competitors",
+                  "label": "Rivalry among competitors"
+                },
+                {
+                  "id": "strategy-bargaining-power-of-buyers",
+                  "label": "Bargaining power of buyers"
+                },
+                {
+                  "id": "strategy-bargaining-power-of-suppliers",
+                  "label": "Bargaining power of suppliers"
+                },
+                {
+                  "id": "strategy-threat-of-new-entrants",
+                  "label": "Threat of new entrants"
+                },
+                {
+                  "id": "strategy-threat-of-substitutes",
+                  "label": "Threat of substitutes"
+                }
+              ]
+            },
+            {
+              "id": "strategy-pestle-analysis-political-economic-sociological-technological-legal-environmental",
+              "label": "PESTLE Analysis (Political, Economic, Sociological, Technological, Legal, Environmental)"
+            }
+          ]
+        },
+        {
+          "id": "strategy-how-to-gain-advantage",
+          "label": "How to Gain Advantage?",
+          "children": [
+            {
+              "id": "strategy-porter-s-generic-strategies",
+              "label": "Porter’s Generic Strategies",
+              "children": [
+                {
+                  "id": "strategy-cost-leadership-automate-processes-shift-costs-to-customers",
+                  "label": "Cost Leadership (Automate processes, shift costs to customers)"
+                },
+                {
+                  "id": "strategy-differentiation-enable-innovation-gather-customer-insights",
+                  "label": "Differentiation (Enable innovation, gather customer insights)"
+                },
+                {
+                  "id": "strategy-focus-niche-targeting-close-customer-relationships",
+                  "label": "Focus (Niche targeting, close customer relationships)"
+                }
+              ]
+            },
+            {
+              "id": "strategy-bowman-s-strategy-clock",
+              "label": "Bowman’s Strategy Clock",
+              "children": [
+                {
+                  "id": "strategy-low-price-hybrid-differentiation-risky-strategies",
+                  "label": "Low price → Hybrid → Differentiation → Risky strategies"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-strategic-tools",
+          "label": "Strategic Tools",
+          "children": [
+            {
+              "id": "strategy-blue-ocean-strategy-eliminate-reduce-raise-create-w-is-it",
+              "label": "Blue Ocean Strategy (Eliminate-Reduce-Raise-Create w/ IS/IT)"
+            },
+            {
+              "id": "strategy-bcg-matrix-stars-cash-cows-question-marks-dogs",
+              "label": "BCG Matrix (Stars, Cash Cows, Question Marks, Dogs)",
+              "children": [
+                {
+                  "id": "strategy-stars-growth-focused-is-it",
+                  "label": "Stars: Growth-focused IS/IT"
+                },
+                {
+                  "id": "strategy-cash-cows-efficiency-is-it",
+                  "label": "Cash Cows: Efficiency IS/IT"
+                },
+                {
+                  "id": "strategy-question-marks-customer-insights",
+                  "label": "Question Marks: Customer insights"
+                },
+                {
+                  "id": "strategy-dogs-minimal-is-it",
+                  "label": "Dogs: Minimal IS/IT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-business-models-is-it-driven",
+          "label": "Business Models (IS/IT-Driven)",
+          "children": [
+            {
+              "id": "strategy-subscription",
+              "label": "Subscription"
+            },
+            {
+              "id": "strategy-advertising",
+              "label": "Advertising"
+            },
+            {
+              "id": "strategy-freemium",
+              "label": "Freemium"
+            },
+            {
+              "id": "strategy-licensing",
+              "label": "Licensing"
+            }
+          ]
+        },
+        {
+          "id": "strategy-porter-s-generic-strategies-2",
+          "label": "Porter’s Generic Strategies",
+          "children": [
+            {
+              "id": "strategy-1-cost-leadership",
+              "label": "1⃣ Cost Leadership",
+              "children": [
+                {
+                  "id": "strategy-is-it-automate-processes-efficiency",
+                  "label": "IS/IT: Automate processes → Efficiency"
+                },
+                {
+                  "id": "strategy-is-it-link-processes-synergy",
+                  "label": "IS/IT: Link processes → Synergy"
+                },
+                {
+                  "id": "strategy-is-it-shift-costs-to-customers-suppliers",
+                  "label": "IS/IT: Shift costs to customers/suppliers"
+                }
+              ]
+            },
+            {
+              "id": "strategy-2-differentiation",
+              "label": "2⃣ Differentiation",
+              "children": [
+                {
+                  "id": "strategy-is-it-enable-innovation",
+                  "label": "IS/IT: Enable innovation"
+                },
+                {
+                  "id": "strategy-is-it-improve-existing-processes",
+                  "label": "IS/IT: Improve existing processes"
+                },
+                {
+                  "id": "strategy-is-it-gather-customer-insights",
+                  "label": "IS/IT: Gather customer insights"
+                }
+              ]
+            },
+            {
+              "id": "strategy-3-focus-cost-diff",
+              "label": "3⃣ Focus (Cost/Diff)",
+              "children": [
+                {
+                  "id": "strategy-is-it-target-niche-markets",
+                  "label": "IS/IT: Target niche markets"
+                },
+                {
+                  "id": "strategy-is-it-build-customer-relationships",
+                  "label": "IS/IT: Build customer relationships"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-bowman-s-strategy-clock-2",
+          "label": "Bowman’s Strategy Clock"
+        },
+        {
+          "id": "strategy-bcg-matrix",
+          "label": "BCG Matrix",
+          "children": [
+            {
+              "id": "strategy-dogs-pets",
+              "label": "Dogs/Pets",
+              "children": [
+                {
+                  "id": "strategy-low-growth-low-share",
+                  "label": "Low growth, low share"
+                },
+                {
+                  "id": "strategy-is-it-cost-cuts-only",
+                  "label": "IS/IT: Cost cuts only"
+                }
+              ]
+            },
+            {
+              "id": "strategy-question-marks",
+              "label": "Question Marks",
+              "children": [
+                {
+                  "id": "strategy-high-growth-low-share",
+                  "label": "High growth, low share"
+                },
+                {
+                  "id": "strategy-is-it-r-d-customer-targeting",
+                  "label": "IS/IT: R&D + customer targeting"
+                }
+              ]
+            },
+            {
+              "id": "strategy-stars",
+              "label": "Stars",
+              "children": [
+                {
+                  "id": "strategy-high-growth-high-share",
+                  "label": "High growth, high share"
+                },
+                {
+                  "id": "strategy-is-it-scale-customer-retention",
+                  "label": "IS/IT: Scale & customer retention"
+                }
+              ]
+            },
+            {
+              "id": "strategy-cash-cows",
+              "label": "Cash Cows",
+              "children": [
+                {
+                  "id": "strategy-low-growth-high-share",
+                  "label": "Low growth, high share"
+                },
+                {
+                  "id": "strategy-is-it-defend-market-position",
+                  "label": "IS/IT: Defend market position"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "strategy-value-chains",
+          "label": "Value Chains",
+          "children": [
+            {
+              "id": "strategy-internal-primary-support-activities",
+              "label": "Internal (Primary/Support activities)"
+            },
+            {
+              "id": "strategy-industry-network-disintermediation-opportunities",
+              "label": "Industry/Network (Disintermediation opportunities)"
+            }
+          ]
+        },
+        {
+          "id": "strategy-resource-based-view-rbv-2",
+          "label": "Resource-Based View (RBV)",
+          "children": [
+            {
+              "id": "strategy-valuable-2",
+              "label": "Valuable"
+            },
+            {
+              "id": "strategy-rare-2",
+              "label": "Rare"
+            },
+            {
+              "id": "strategy-inimitable-2",
+              "label": "Inimitable"
+            },
+            {
+              "id": "strategy-non-substitutable-2",
+              "label": "Non-substitutable"
+            }
+          ]
+        },
+        {
+          "id": "strategy-strategic-competencies",
+          "label": "Strategic Competencies",
+          "children": [
+            {
+              "id": "strategy-operational-excellence-e-g-walmart",
+              "label": "Operational Excellence (e.g., Walmart)"
+            },
+            {
+              "id": "strategy-customer-intimacy-e-g-home-depot",
+              "label": "Customer Intimacy (e.g., Home Depot)"
+            },
+            {
+              "id": "strategy-product-leadership-e-g-apple",
+              "label": "Product Leadership (e.g., Apple)"
+            }
+          ]
+        },
+        {
+          "id": "strategy-change-management",
+          "label": "Change Management",
+          "children": [
+            {
+              "id": "strategy-dynamic-capabilities-reallocate-resources",
+              "label": "Dynamic capabilities (reallocate resources)"
+            },
+            {
+              "id": "strategy-is-it-as-enabler-of-new-biz-models-processes",
+              "label": "IS/IT as enabler of new biz models/processes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

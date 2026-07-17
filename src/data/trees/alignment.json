@@ -1,0 +1,202 @@
+{
+  "id": "alignment-strategic-alignment-in-is-it",
+  "label": "Strategic Alignment in IS/IT",
+  "children": [
+    {
+      "id": "alignment-core-concepts",
+      "label": "Core Concepts",
+      "children": [
+        {
+          "id": "alignment-definition-it-investments-enabling-business-strategy",
+          "label": "Definition: \"IT investments enabling business strategy\""
+        },
+        {
+          "id": "alignment-key-traits",
+          "label": "Key Traits:",
+          "children": [
+            {
+              "id": "alignment-dynamic-process-not-one-time",
+              "label": "Dynamic process (not one-time)"
+            },
+            {
+              "id": "alignment-top-down-business-driven",
+              "label": "Top-down + business-driven"
+            },
+            {
+              "id": "alignment-requires-collaboration-it-business",
+              "label": "Requires collaboration (IT + business)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment-frameworks-models",
+      "label": "Frameworks & Models",
+      "children": [
+        {
+          "id": "alignment-henderson-venkatraman-model",
+          "label": "Henderson-Venkatraman Model",
+          "children": [
+            {
+              "id": "alignment-external-focus",
+              "label": "External Focus",
+              "children": [
+                {
+                  "id": "alignment-technology-scope",
+                  "label": "Technology scope"
+                },
+                {
+                  "id": "alignment-systemic-competencies",
+                  "label": "Systemic competencies"
+                },
+                {
+                  "id": "alignment-it-governance",
+                  "label": "IT governance"
+                }
+              ]
+            },
+            {
+              "id": "alignment-internal-focus",
+              "label": "Internal Focus",
+              "children": [
+                {
+                  "id": "alignment-is-architecture",
+                  "label": "IS architecture"
+                },
+                {
+                  "id": "alignment-is-processes",
+                  "label": "IS processes"
+                },
+                {
+                  "id": "alignment-is-skills",
+                  "label": "IS skills"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alignment-luftman-s-maturity-assessment",
+          "label": "Luftman's Maturity Assessment",
+          "children": [
+            {
+              "id": "alignment-business-strategy",
+              "label": "Business strategy"
+            },
+            {
+              "id": "alignment-org-infrastructure",
+              "label": "Org infrastructure"
+            },
+            {
+              "id": "alignment-digital-strategy",
+              "label": "Digital strategy"
+            },
+            {
+              "id": "alignment-it-infrastructure",
+              "label": "IT infrastructure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment-alignment-tools",
+      "label": "Alignment Tools",
+      "children": [
+        {
+          "id": "alignment-balanced-scorecard-bsc",
+          "label": "Balanced Scorecard (BSC)",
+          "children": [
+            {
+              "id": "alignment-financial-customer-internal-learning",
+              "label": "Financial | Customer | Internal | Learning"
+            }
+          ]
+        },
+        {
+          "id": "alignment-critical-success-factors",
+          "label": "Critical Success Factors",
+          "children": [
+            {
+              "id": "alignment-5-8-key-do-wells-per-objective",
+              "label": "5-8 key \"do wells\" per objective"
+            }
+          ]
+        },
+        {
+          "id": "alignment-process-data-matrix",
+          "label": "Process/Data Matrix",
+          "children": [
+            {
+              "id": "alignment-links-activities-to-information-needs",
+              "label": "Links activities to information needs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment-enablers",
+      "label": "Enablers",
+      "children": [
+        {
+          "id": "alignment-top-management-support",
+          "label": "Top management support"
+        },
+        {
+          "id": "alignment-it-involvement-in-strategy",
+          "label": "IT involvement in strategy"
+        },
+        {
+          "id": "alignment-shared-kpis-kris",
+          "label": "Shared KPIs/KRIs"
+        },
+        {
+          "id": "alignment-enterprise-architecture",
+          "label": "Enterprise architecture"
+        }
+      ]
+    },
+    {
+      "id": "alignment-common-pitfalls",
+      "label": "Common Pitfalls",
+      "children": [
+        {
+          "id": "alignment-it-business-communication-gaps",
+          "label": "IT-business communication gaps"
+        },
+        {
+          "id": "alignment-static-planning-no-adaptation",
+          "label": "Static planning (no adaptation)"
+        },
+        {
+          "id": "alignment-misaligned-incentives",
+          "label": "Misaligned incentives"
+        },
+        {
+          "id": "alignment-technology-first-mindset",
+          "label": "Technology-first mindset"
+        }
+      ]
+    },
+    {
+      "id": "alignment-implementation-path",
+      "label": "Implementation Path",
+      "children": [
+        {
+          "id": "alignment-analyze-swot-current-systems",
+          "label": "Analyze (SWOT, current systems)"
+        },
+        {
+          "id": "alignment-define-csfs-architecture",
+          "label": "Define (CSFs, architecture)"
+        },
+        {
+          "id": "alignment-execute-bsc-tracking-governance",
+          "label": "Execute (BSC tracking, governance)"
+        }
+      ]
+    }
+  ]
+}

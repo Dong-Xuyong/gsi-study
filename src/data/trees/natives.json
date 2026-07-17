@@ -1,0 +1,156 @@
+{
+  "id": "natives-it-evolution-laws",
+  "label": "IT Evolution \"Laws\"",
+  "children": [
+    {
+      "id": "natives-moore-s-law",
+      "label": "Moore’s Law:",
+      "children": [
+        {
+          "id": "natives-transistors-double-every-18-months",
+          "label": "\"Transistors double every 18 months\""
+        },
+        {
+          "id": "natives-drives-computing-power-growth",
+          "label": "Drives computing power growth"
+        }
+      ]
+    },
+    {
+      "id": "natives-kryder-s-law",
+      "label": "Kryder’s Law:",
+      "children": [
+        {
+          "id": "natives-disk-density-doubles-every-13-months",
+          "label": "\"Disk density doubles every 13 months\""
+        },
+        {
+          "id": "natives-enables-massive-data-storage",
+          "label": "Enables massive data storage"
+        }
+      ]
+    },
+    {
+      "id": "natives-edholm-s-law",
+      "label": "Edholm’s Law:",
+      "children": [
+        {
+          "id": "natives-bandwidth-doubles-every-18-months",
+          "label": "\"Bandwidth doubles every 18 months\""
+        },
+        {
+          "id": "natives-fuels-faster-connectivity",
+          "label": "Fuels faster connectivity"
+        }
+      ]
+    },
+    {
+      "id": "natives-digital-transformation",
+      "label": "Digital Transformation",
+      "children": [
+        {
+          "id": "natives-definition",
+          "label": "Definition:",
+          "children": [
+            {
+              "id": "natives-improving-entities-via-tech-combos-info-computing-comms",
+              "label": "\"Improving entities via tech combos (info, computing, comms)\""
+            },
+            {
+              "id": "natives-applies-to-orgs-societies-industries",
+              "label": "Applies to orgs/societies/industries"
+            }
+          ]
+        },
+        {
+          "id": "natives-key-idea",
+          "label": "Key Idea:",
+          "children": [
+            {
+              "id": "natives-change-in-properties-guaranteed-success",
+              "label": "Change in properties ≠ guaranteed success"
+            }
+          ]
+        },
+        {
+          "id": "natives-kurzweil-s-law",
+          "label": "Kurzweil’s Law:",
+          "children": [
+            {
+              "id": "natives-exponential-rate-of-tech-change",
+              "label": "\"Exponential rate of tech change\""
+            }
+          ]
+        },
+        {
+          "id": "natives-martec-s-law",
+          "label": "Martec’s Law:",
+          "children": [
+            {
+              "id": "natives-tech-changes-exponentially-orgs-change-logarithmically",
+              "label": "\"Tech changes exponentially, orgs change logarithmically\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natives-digital-natives-vs-immigrants",
+      "label": "Digital Natives vs. Immigrants",
+      "children": [
+        {
+          "id": "natives-individuals",
+          "label": "Individuals:",
+          "children": [
+            {
+              "id": "natives-natives-grew-up-with-internet-prensky-2001",
+              "label": "Natives: Grew up with internet (Prensky, 2001)"
+            },
+            {
+              "id": "natives-immigrants-pre-internet-generation",
+              "label": "Immigrants: Pre-internet generation"
+            }
+          ]
+        },
+        {
+          "id": "natives-organizations",
+          "label": "Organizations:",
+          "children": [
+            {
+              "id": "natives-immigrant-orgs-money-centric-info-as-tool",
+              "label": "Immigrant Orgs: Money-centric, info as tool"
+            },
+            {
+              "id": "natives-native-orgs-info-centric-money-as-tool",
+              "label": "Native Orgs: Info-centric, money as tool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natives-cio-s-new-role",
+      "label": "CIO’s New Role",
+      "children": [
+        {
+          "id": "natives-from-tech-manager-info-strategist",
+          "label": "From tech manager → info strategist"
+        },
+        {
+          "id": "natives-key-focus",
+          "label": "Key focus:",
+          "children": [
+            {
+              "id": "natives-aligning-info-with-business-value",
+              "label": "Aligning info with business value"
+            },
+            {
+              "id": "natives-managing-exponential-tech-change",
+              "label": "Managing exponential tech change"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

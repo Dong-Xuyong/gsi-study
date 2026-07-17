@@ -1,0 +1,254 @@
+{
+  "id": "introduction-strategic-is-it-management",
+  "label": "Strategic IS/IT Management",
+  "children": [
+    {
+      "id": "introduction-success-factors-8-key-points",
+      "label": "Success Factors (8 Key Points)",
+      "children": [
+        {
+          "id": "introduction-external-focus-not-internal",
+          "label": "External focus (not internal)"
+        },
+        {
+          "id": "introduction-add-value-not-just-cost-reduction",
+          "label": "Add value (not just cost reduction)"
+        },
+        {
+          "id": "introduction-share-benefits-org-suppliers-customers",
+          "label": "Share benefits (org, suppliers, customers)"
+        },
+        {
+          "id": "introduction-understand-customers-their-value-journey",
+          "label": "Understand customers (their value journey)"
+        },
+        {
+          "id": "introduction-business-driven-innovation-not-tech-driven",
+          "label": "Business-driven innovation (not tech-driven)"
+        },
+        {
+          "id": "introduction-incremental-development-not-big-bang",
+          "label": "Incremental development (not big-bang)"
+        },
+        {
+          "id": "introduction-monetize-information-e-g-tesco-google-amazon",
+          "label": "Monetize information (e.g., Tesco, Google, Amazon)"
+        }
+      ]
+    },
+    {
+      "id": "introduction-foundations-of-success",
+      "label": "Foundations of Success",
+      "children": [
+        {
+          "id": "introduction-it-enabler-short-term-advantage",
+          "label": "IT Enabler: Short-term advantage"
+        },
+        {
+          "id": "introduction-is-advantage-harder-to-copy-alters-processes",
+          "label": "IS Advantage: Harder to copy (alters processes)"
+        },
+        {
+          "id": "introduction-information-advantage-sustainable-improves-products-services",
+          "label": "Information Advantage: Sustainable (improves products/services)"
+        }
+      ]
+    },
+    {
+      "id": "introduction-frameworks-models",
+      "label": "Frameworks & Models",
+      "children": [
+        {
+          "id": "introduction-mcfarlan-s-matrix-it-portfolio",
+          "label": "McFarlan’s Matrix (IT Portfolio)",
+          "children": [
+            {
+              "id": "introduction-strategic",
+              "label": "Strategic"
+            },
+            {
+              "id": "introduction-key-operational",
+              "label": "Key Operational"
+            },
+            {
+              "id": "introduction-high-potential",
+              "label": "High potential"
+            },
+            {
+              "id": "introduction-support",
+              "label": "Support"
+            }
+          ]
+        },
+        {
+          "id": "introduction-sullivan-s-matrix-is-it-environments",
+          "label": "Sullivan’s Matrix (IS/IT Environments)",
+          "children": [
+            {
+              "id": "introduction-axes",
+              "label": "Axes",
+              "children": [
+                {
+                  "id": "introduction-infusion-business-dependence-on-is-it",
+                  "label": "Infusion: Business dependence on IS/IT",
+                  "children": [
+                    {
+                      "id": "introduction-low-not-critical",
+                      "label": "Low: Not critical"
+                    },
+                    {
+                      "id": "introduction-high-very-critical-to-operations",
+                      "label": "High: Very critical to operations"
+                    }
+                  ]
+                },
+                {
+                  "id": "introduction-diffusion-spread-of-is-it-in-the-organization",
+                  "label": "Diffusion: Spread of IS/IT in the organization",
+                  "children": [
+                    {
+                      "id": "introduction-low-centralized-control",
+                      "label": "Low: Centralized control"
+                    },
+                    {
+                      "id": "introduction-high-decentralized-use-across-departments",
+                      "label": "High: Decentralized use across departments"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "introduction-quadrants",
+              "label": "Quadrants",
+              "children": [
+                {
+                  "id": "introduction-traditional",
+                  "label": "Traditional",
+                  "children": [
+                    {
+                      "id": "introduction-low-infusion-low-diffusion",
+                      "label": "Low Infusion, Low Diffusion"
+                    },
+                    {
+                      "id": "introduction-basic-it-use-e-g-payroll",
+                      "label": "Basic IT use (e.g., payroll)"
+                    }
+                  ]
+                },
+                {
+                  "id": "introduction-opportunistic",
+                  "label": "Opportunistic",
+                  "children": [
+                    {
+                      "id": "introduction-low-infusion-high-diffusion",
+                      "label": "Low Infusion, High Diffusion"
+                    },
+                    {
+                      "id": "introduction-isolated-adoption-in-departments-shadow-it",
+                      "label": "Isolated adoption in departments (shadow IT)"
+                    }
+                  ]
+                },
+                {
+                  "id": "introduction-backbone",
+                  "label": "Backbone",
+                  "children": [
+                    {
+                      "id": "introduction-high-infusion-low-diffusion",
+                      "label": "High Infusion, Low Diffusion"
+                    },
+                    {
+                      "id": "introduction-central-systems-critical-to-business",
+                      "label": "Central systems critical to business"
+                    }
+                  ]
+                },
+                {
+                  "id": "introduction-complex",
+                  "label": "Complex",
+                  "children": [
+                    {
+                      "id": "introduction-high-infusion-high-diffusion",
+                      "label": "High Infusion, High Diffusion"
+                    },
+                    {
+                      "id": "introduction-high-integration-strategic-value",
+                      "label": "High integration + strategic value"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "introduction-pressures",
+              "label": "Pressures",
+              "children": [
+                {
+                  "id": "introduction-internal-organizational-pressures",
+                  "label": "Internal Organizational Pressures",
+                  "children": [
+                    {
+                      "id": "introduction-push-for-more-decentralization",
+                      "label": "Push for more decentralization"
+                    }
+                  ]
+                },
+                {
+                  "id": "introduction-external-competitive-pressures",
+                  "label": "External Competitive Pressures",
+                  "children": [
+                    {
+                      "id": "introduction-push-to-rely-more-on-is-it",
+                      "label": "Push to rely more on IS/IT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "introduction-traditional-vs-reframed-quests",
+      "label": "Traditional vs. Reframed Quests"
+    },
+    {
+      "id": "introduction-it-cmf-it-capability-maturity-framework",
+      "label": "IT-CMF (IT Capability Maturity Framework)",
+      "children": [
+        {
+          "id": "introduction-goal-manage-it-like-a-business",
+          "label": "Goal: Manage IT like a business"
+        },
+        {
+          "id": "introduction-macro-capabilities",
+          "label": "Macro-Capabilities:",
+          "children": [
+            {
+              "id": "introduction-managing-it-like-a-business",
+              "label": "Managing IT like a business"
+            },
+            {
+              "id": "introduction-managing-it-budget",
+              "label": "Managing IT budget"
+            },
+            {
+              "id": "introduction-managing-it-for-business-value",
+              "label": "Managing IT for business value"
+            },
+            {
+              "id": "introduction-managing-it-capability",
+              "label": "Managing IT capability"
+            }
+          ]
+        },
+        {
+          "id": "introduction-maturity-levels-1-5-initial-optimizing",
+          "label": "Maturity Levels (1-5): Initial → Optimizing"
+        }
+      ]
+    }
+  ]
+}

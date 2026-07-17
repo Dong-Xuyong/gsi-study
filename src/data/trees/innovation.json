@@ -1,0 +1,214 @@
+{
+  "id": "innovation-innovation-in-is-it",
+  "label": "Innovation in IS/IT",
+  "children": [
+    {
+      "id": "innovation-schumpeter-s-5-innovation-types",
+      "label": "Schumpeter's 5 Innovation Types",
+      "children": [
+        {
+          "id": "innovation-new-product-service-unfamiliar-to-customers",
+          "label": "New product/service (unfamiliar to customers)"
+        },
+        {
+          "id": "innovation-new-production-method-novel-manufacturing-commercial-approach",
+          "label": "New production method (novel manufacturing/commercial approach)"
+        },
+        {
+          "id": "innovation-new-market-entry-previously-untapped",
+          "label": "New market entry (previously untapped)"
+        },
+        {
+          "id": "innovation-new-supply-source-raw-materials-components",
+          "label": "New supply source (raw materials/components)"
+        },
+        {
+          "id": "innovation-new-industry-organization-monopoly-creation-breakup",
+          "label": "New industry organization (monopoly creation/breakup)"
+        }
+      ]
+    },
+    {
+      "id": "innovation-innovation-models",
+      "label": "Innovation Models",
+      "children": [
+        {
+          "id": "innovation-closed-innovation-internal-r-d",
+          "label": "Closed Innovation (Internal R&D)"
+        },
+        {
+          "id": "innovation-open-innovation-external-collaborations",
+          "label": "Open Innovation (External collaborations)"
+        },
+        {
+          "id": "innovation-disruptive-vs-sustaining",
+          "label": "Disruptive vs Sustaining",
+          "children": [
+            {
+              "id": "innovation-disruptive-creates-new-markets-netflix",
+              "label": "Disruptive: Creates new markets (Netflix)"
+            },
+            {
+              "id": "innovation-sustaining-improves-existing-markets-iphone-upgrades",
+              "label": "Sustaining: Improves existing markets (iPhone upgrades)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "innovation-is-it-innovation-process",
+      "label": "IS/IT Innovation Process",
+      "children": [
+        {
+          "id": "innovation-idea-generation-tech-scans-pain-points",
+          "label": "Idea Generation (Tech scans, pain points)"
+        },
+        {
+          "id": "innovation-awareness-stakeholder-buy-in",
+          "label": "Awareness (Stakeholder buy-in)"
+        },
+        {
+          "id": "innovation-evaluation-business-tech-filters",
+          "label": "Evaluation (Business/tech filters)"
+        },
+        {
+          "id": "innovation-implementation-project-deployment",
+          "label": "Implementation (Project deployment)"
+        },
+        {
+          "id": "innovation-assimilation-organizational-adoption",
+          "label": "Assimilation (Organizational adoption)"
+        }
+      ]
+    },
+    {
+      "id": "innovation-evaluation-filters",
+      "label": "Evaluation Filters",
+      "children": [
+        {
+          "id": "innovation-business-relevance",
+          "label": "Business Relevance"
+        },
+        {
+          "id": "innovation-technical-compatibility",
+          "label": "Technical Compatibility"
+        },
+        {
+          "id": "innovation-economic-viability",
+          "label": "Economic Viability"
+        },
+        {
+          "id": "innovation-supplier-stability",
+          "label": "Supplier Stability"
+        },
+        {
+          "id": "innovation-competency-availability",
+          "label": "Competency Availability"
+        }
+      ]
+    },
+    {
+      "id": "innovation-common-obstacles",
+      "label": "Common Obstacles",
+      "children": [
+        {
+          "id": "innovation-executives-too-busy",
+          "label": "Executives \"too busy\""
+        },
+        {
+          "id": "innovation-business-it-misalignment",
+          "label": "Business-IT misalignment"
+        },
+        {
+          "id": "innovation-risk-aversion",
+          "label": "Risk aversion"
+        },
+        {
+          "id": "innovation-legacy-mindset-resistance",
+          "label": "Legacy mindset resistance"
+        }
+      ]
+    },
+    {
+      "id": "innovation-success-facilitators",
+      "label": "Success Facilitators",
+      "children": [
+        {
+          "id": "innovation-tech-awareness-trend-monitoring",
+          "label": "Tech awareness (Trend monitoring)"
+        },
+        {
+          "id": "innovation-cross-functional-dialogue",
+          "label": "Cross-functional dialogue"
+        },
+        {
+          "id": "innovation-digital-literacy-in-leadership",
+          "label": "Digital literacy in leadership"
+        },
+        {
+          "id": "innovation-dedicated-innovation-budget",
+          "label": "Dedicated innovation budget"
+        }
+      ]
+    },
+    {
+      "id": "innovation-exploitation-vs-exploration",
+      "label": "Exploitation vs Exploration",
+      "children": [
+        {
+          "id": "innovation-exploitation",
+          "label": "Exploitation",
+          "children": [
+            {
+              "id": "innovation-optimizing-current-operations",
+              "label": "Optimizing current operations"
+            },
+            {
+              "id": "innovation-reducing-transaction-costs",
+              "label": "Reducing transaction costs"
+            }
+          ]
+        },
+        {
+          "id": "innovation-exploration",
+          "label": "Exploration",
+          "children": [
+            {
+              "id": "innovation-generating-new-knowledge-e-g-via-business-intelligence",
+              "label": "Generating new knowledge (e.g., via business intelligence)"
+            }
+          ]
+        },
+        {
+          "id": "innovation-ambidexterity-balancing-both-simultaneously",
+          "label": "Ambidexterity : Balancing both simultaneously"
+        }
+      ]
+    },
+    {
+      "id": "innovation-analytic-capability",
+      "label": "Analytic Capability",
+      "children": [
+        {
+          "id": "innovation-more-than-tools-requires",
+          "label": "More than tools! Requires:",
+          "children": [
+            {
+              "id": "innovation-data-quality",
+              "label": "Data quality"
+            },
+            {
+              "id": "innovation-skilled-interpreters",
+              "label": "Skilled interpreters"
+            },
+            {
+              "id": "innovation-actionable-insights",
+              "label": "Actionable insights"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

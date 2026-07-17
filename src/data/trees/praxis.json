@@ -1,0 +1,220 @@
+{
+  "id": "praxis-praxis-framework-for-isp",
+  "label": "PRAXIS Framework for ISP",
+  "children": [
+    {
+      "id": "praxis-core-postulates-p1-p16",
+      "label": "Core Postulates (P1-P16)",
+      "children": [
+        {
+          "id": "praxis-foundational-principles",
+          "label": "Foundational Principles",
+          "children": [
+            {
+              "id": "praxis-p1-rationality-organizational-activities-should-be-deliberate",
+              "label": "P1 Rationality : Organizational activities should be deliberate"
+            },
+            {
+              "id": "praxis-p2-user-satisfaction-prioritize-end-user-needs",
+              "label": "P2 User Satisfaction : Prioritize end-user needs"
+            },
+            {
+              "id": "praxis-p6-contingency-context-dependent-planning",
+              "label": "P6 Contingency : Context-dependent planning"
+            },
+            {
+              "id": "praxis-p7-complexity-human-factor-dependent-process",
+              "label": "P7 Complexity : Human-factor dependent process"
+            },
+            {
+              "id": "praxis-p9-holism-integrated-fragmented-execution",
+              "label": "P9 Holism : Integrated > fragmented execution"
+            }
+          ]
+        },
+        {
+          "id": "praxis-methodological-guides",
+          "label": "Methodological Guides",
+          "children": [
+            {
+              "id": "praxis-p12-multidimensional-approach",
+              "label": "P12 Multidimensional Approach :",
+              "children": [
+                {
+                  "id": "praxis-eclectic-method-selection",
+                  "label": "Eclectic method selection"
+                },
+                {
+                  "id": "praxis-adaptive-focus-areas",
+                  "label": "Adaptive focus areas"
+                }
+              ]
+            },
+            {
+              "id": "praxis-p14-matrix-representations-standard-modeling-technique",
+              "label": "P14 Matrix Representations : Standard modeling technique"
+            },
+            {
+              "id": "praxis-p16-advanced-computing-ai-knowledge-base-integration",
+              "label": "P16 Advanced Computing : AI/Knowledge-base integration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praxis-framework-components",
+      "label": "Framework Components",
+      "children": [
+        {
+          "id": "praxis-1-preponderant-realities-model",
+          "label": "1. Preponderant Realities Model",
+          "children": [
+            {
+              "id": "praxis-paradigms-organizational-mindset",
+              "label": "Paradigms : Organizational mindset"
+            },
+            {
+              "id": "praxis-influences-internal-external-factors",
+              "label": "Influences : Internal/external factors"
+            },
+            {
+              "id": "praxis-results-planning-outcomes",
+              "label": "Results : Planning outcomes"
+            },
+            {
+              "id": "praxis-future-long-term-vision",
+              "label": "Future : Long-term vision"
+            }
+          ]
+        },
+        {
+          "id": "praxis-2-management-objects",
+          "label": "2. Management Objects",
+          "children": [
+            {
+              "id": "praxis-key-focus-areas-for-isp",
+              "label": "Key focus areas for ISP:",
+              "children": [
+                {
+                  "id": "praxis-processes",
+                  "label": "Processes"
+                },
+                {
+                  "id": "praxis-data",
+                  "label": "Data"
+                },
+                {
+                  "id": "praxis-technologies",
+                  "label": "Technologies"
+                },
+                {
+                  "id": "praxis-human-resources",
+                  "label": "Human resources"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "praxis-3-three-stage-bowman-model",
+          "label": "3. Three-Stage Bowman Model",
+          "children": [
+            {
+              "id": "praxis-analysis-requirements-architecture",
+              "label": "Analysis → Requirements → Architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praxis-implementation-approach",
+      "label": "Implementation Approach",
+      "children": [
+        {
+          "id": "praxis-praxis-a-approach",
+          "label": "PRAXIS/a (Approach)",
+          "children": [
+            {
+              "id": "praxis-moments-planning-phases",
+              "label": "Moments : Planning phases"
+            },
+            {
+              "id": "praxis-flexibility-adaptive-execution",
+              "label": "Flexibility : Adaptive execution"
+            },
+            {
+              "id": "praxis-contingency-support-context-aware-adjustments",
+              "label": "Contingency Support : Context-aware adjustments"
+            }
+          ]
+        },
+        {
+          "id": "praxis-praxis-m-method",
+          "label": "PRAXIS/m (Method)",
+          "children": [
+            {
+              "id": "praxis-phases",
+              "label": "Phases :",
+              "children": [
+                {
+                  "id": "praxis-initiation",
+                  "label": "Initiation"
+                },
+                {
+                  "id": "praxis-detailed-analysis",
+                  "label": "Detailed Analysis"
+                },
+                {
+                  "id": "praxis-architecture-design",
+                  "label": "Architecture Design"
+                }
+              ]
+            },
+            {
+              "id": "praxis-matrix-tools-cross-object-analysis",
+              "label": "Matrix Tools : Cross-object analysis"
+            }
+          ]
+        },
+        {
+          "id": "praxis-praxis-f-tools",
+          "label": "PRAXIS/f (Tools)",
+          "children": [
+            {
+              "id": "praxis-rigorous-matrix-modeling",
+              "label": "Rigorous Matrix Modeling"
+            },
+            {
+              "id": "praxis-user-friendly-interfaces",
+              "label": "User-Friendly Interfaces"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praxis-key-insights",
+      "label": "Key Insights",
+      "children": [
+        {
+          "id": "praxis-not-linear-iterative-contingent-process",
+          "label": "Not linear: Iterative, contingent process"
+        },
+        {
+          "id": "praxis-balances-structure-flexibility",
+          "label": "Balances: Structure + Flexibility"
+        },
+        {
+          "id": "praxis-human-centric-depends-on-planner-expertise",
+          "label": "Human-centric: Depends on planner expertise"
+        },
+        {
+          "id": "praxis-holistic-integrates-technical-organizational-aspects",
+          "label": "Holistic: Integrates technical & organizational aspects"
+        }
+      ]
+    }
+  ]
+}

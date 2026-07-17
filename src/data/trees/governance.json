@@ -1,0 +1,304 @@
+{
+  "id": "governance-is-it-governance",
+  "label": "IS/IT Governance",
+  "children": [
+    {
+      "id": "governance-definition",
+      "label": "Definition:",
+      "children": [
+        {
+          "id": "governance-decision-rights-accountability-for-it-behavior-weill-ross",
+          "label": "\"Decision rights & accountability for IT behavior\" (Weill & Ross)"
+        },
+        {
+          "id": "governance-top-down-control-aligning-it-with-business-goals",
+          "label": "Top-down control aligning IT with business goals"
+        }
+      ]
+    },
+    {
+      "id": "governance-key-components",
+      "label": "Key Components:",
+      "children": [
+        {
+          "id": "governance-policies-objectives",
+          "label": "Policies & Objectives"
+        },
+        {
+          "id": "governance-risk-management",
+          "label": "Risk Management"
+        },
+        {
+          "id": "governance-performance-measurement",
+          "label": "Performance Measurement"
+        }
+      ]
+    },
+    {
+      "id": "governance-decision-makers",
+      "label": "Decision Makers:",
+      "children": [
+        {
+          "id": "governance-ceo-executive-team",
+          "label": "CEO/Executive Team"
+        },
+        {
+          "id": "governance-cio",
+          "label": "CIO"
+        },
+        {
+          "id": "governance-is-it-steering-committee",
+          "label": "IS/IT Steering Committee"
+        }
+      ]
+    },
+    {
+      "id": "governance-governance-vs-management",
+      "label": "Governance vs. Management",
+      "children": [
+        {
+          "id": "governance-governance-evaluate-direct-monitor",
+          "label": "Governance (Evaluate/Direct/Monitor):",
+          "children": [
+            {
+              "id": "governance-edm01-governance-framework",
+              "label": "EDM01: Governance Framework"
+            },
+            {
+              "id": "governance-edm03-risk-optimization",
+              "label": "EDM03: Risk Optimization"
+            }
+          ]
+        },
+        {
+          "id": "governance-management-plan-build-run-monitor",
+          "label": "Management (Plan/Build/Run/Monitor):",
+          "children": [
+            {
+              "id": "governance-apo-align-plan-organize",
+              "label": "APO: Align/Plan/Organize"
+            },
+            {
+              "id": "governance-bai-build-acquire-implement",
+              "label": "BAI: Build/Acquire/Implement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-cobit-2019-framework",
+      "label": "COBIT 2019 Framework",
+      "children": [
+        {
+          "id": "governance-core-objective-governance-of-enterprise-it-geit",
+          "label": "Core Objective: \"Governance of Enterprise IT\" (GEIT)"
+        },
+        {
+          "id": "governance-5-domains",
+          "label": "5 Domains:",
+          "children": [
+            {
+              "id": "governance-edm-evaluate-direct-monitor",
+              "label": "EDM (Evaluate/Direct/Monitor)"
+            },
+            {
+              "id": "governance-apo-align-plan-organize-2",
+              "label": "APO (Align/Plan/Organize)"
+            },
+            {
+              "id": "governance-bai-build-acquire-implement-2",
+              "label": "BAI (Build/Acquire/Implement)"
+            },
+            {
+              "id": "governance-dss-deliver-service-support",
+              "label": "DSS (Deliver/Service/Support)"
+            },
+            {
+              "id": "governance-mea-monitor-evaluate-assess",
+              "label": "MEA (Monitor/Evaluate/Assess)"
+            }
+          ]
+        },
+        {
+          "id": "governance-40-processes-e-g-apo13-managed-security",
+          "label": "40 Processes (e.g., APO13: Managed Security)"
+        }
+      ]
+    },
+    {
+      "id": "governance-cio-role-evolution",
+      "label": "CIO Role Evolution",
+      "children": [
+        {
+          "id": "governance-from-tech-manager-business-leader",
+          "label": "From \"Tech Manager\" → \"Business Leader\""
+        },
+        {
+          "id": "governance-top-2023-cio-metrics",
+          "label": "Top 2023 CIO Metrics:",
+          "children": [
+            {
+              "id": "governance-availability",
+              "label": "Availability"
+            },
+            {
+              "id": "governance-user-satisfaction",
+              "label": "User Satisfaction"
+            },
+            {
+              "id": "governance-cybersecurity",
+              "label": "Cybersecurity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-top-is-it-risks",
+      "label": "Top IS/IT Risks",
+      "children": [
+        {
+          "id": "governance-strategic-misalignment",
+          "label": "Strategic Misalignment"
+        },
+        {
+          "id": "governance-operational-failures",
+          "label": "Operational Failures"
+        },
+        {
+          "id": "governance-compliance-gaps",
+          "label": "Compliance Gaps",
+          "children": [
+            {
+              "id": "governance-stakeholder-value",
+              "label": "Stakeholder Value"
+            },
+            {
+              "id": "governance-holistic-approach",
+              "label": "Holistic Approach"
+            },
+            {
+              "id": "governance-dynamic-governance",
+              "label": "Dynamic Governance"
+            },
+            {
+              "id": "governance-integrated-framework",
+              "label": "Integrated Framework"
+            },
+            {
+              "id": "governance-separate-governance-management",
+              "label": "Separate Governance & Management"
+            },
+            {
+              "id": "governance-decision-making-models",
+              "label": "Decision-Making Models",
+              "children": [
+                {
+                  "id": "governance-multi-local-every-unit-for-itself-fast-but-chaotic",
+                  "label": "Multi-local = \"Every unit for itself\" → Fast but chaotic."
+                },
+                {
+                  "id": "governance-centralized-one-rule-for-all-efficient-but-inflexible",
+                  "label": "Centralized = \"One rule for all\" → Efficient but inflexible."
+                },
+                {
+                  "id": "governance-federalism-best-of-both-worlds-balance-is-key",
+                  "label": "Federalism = \"Best of both worlds\" → Balance is key!"
+                }
+              ]
+            },
+            {
+              "id": "governance-chargeback-methods",
+              "label": "Chargeback Methods",
+              "children": [
+                {
+                  "id": "governance-usage-based-pay-as-you-go-fair-but-may-reduce-innovation",
+                  "label": "Usage-Based: \"Pay-as-you-go\" → Fair but may reduce innovation."
+                },
+                {
+                  "id": "governance-contract-based-fixed-fees-predictable-but-rigid",
+                  "label": "Contract-Based: \"Fixed fees\" → Predictable but rigid."
+                },
+                {
+                  "id": "governance-decentralized-multi-local",
+                  "label": "Decentralized (Multi-local)"
+                },
+                {
+                  "id": "governance-centralized",
+                  "label": "Centralized"
+                },
+                {
+                  "id": "governance-federalism",
+                  "label": "Federalism"
+                },
+                {
+                  "id": "governance-governance-control-alignment",
+                  "label": "Governance = Control + Alignment",
+                  "children": [
+                    {
+                      "id": "governance-ensures-it-decisions-support-business-strategy-peppard-ward-2016",
+                      "label": "Ensures IT decisions support business strategy (Peppard & Ward, 2016)."
+                    }
+                  ]
+                },
+                {
+                  "id": "governance-who-decides",
+                  "label": "Who Decides?",
+                  "children": [
+                    {
+                      "id": "governance-ceo-cio-strategic-direction",
+                      "label": "CEO/CIO: Strategic direction."
+                    },
+                    {
+                      "id": "governance-steering-committee-prioritizes-projects",
+                      "label": "Steering Committee: Prioritizes projects."
+                    },
+                    {
+                      "id": "governance-ciso-manages-security-risks",
+                      "label": "CISO: Manages security risks."
+                    }
+                  ]
+                },
+                {
+                  "id": "governance-why-it-matters",
+                  "label": "Why It Matters",
+                  "children": [
+                    {
+                      "id": "governance-avoids-it-failures-e-g-budget-overruns-security-breaches",
+                      "label": "Avoids IT failures (e.g., budget overruns, security breaches)."
+                    },
+                    {
+                      "id": "governance-builds-stakeholder-trust-moulton-coles-2003",
+                      "label": "Builds stakeholder trust (Moulton & Coles, 2003)."
+                    }
+                  ]
+                },
+                {
+                  "id": "governance-decision-rights",
+                  "label": "Decision rights"
+                },
+                {
+                  "id": "governance-risk-management-2",
+                  "label": "Risk management"
+                },
+                {
+                  "id": "governance-accountability",
+                  "label": "Accountability"
+                },
+                {
+                  "id": "governance-frameworks-cobit-itil",
+                  "label": "Frameworks (COBIT/ITIL)"
+                },
+                {
+                  "id": "governance-top-down-control",
+                  "label": "Top-down control"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "impact-strategic-impact-of-is-it",
+  "label": "Strategic Impact of IS/IT",
+  "children": [
+    {
+      "id": "impact-gaining-competitive-advantage",
+      "label": "Gaining Competitive Advantage",
+      "children": [
+        {
+          "id": "impact-inside-out-approach",
+          "label": "Inside-Out Approach",
+          "children": [
+            {
+              "id": "impact-enhance-change-business-strategy-via-is-it",
+              "label": "Enhance/change business strategy via IS/IT"
+            },
+            {
+              "id": "impact-counter-competitors-is-it-threats",
+              "label": "Counter competitors' IS/IT threats"
+            }
+          ]
+        },
+        {
+          "id": "impact-applications-portfolio-focus",
+          "label": "Applications Portfolio Focus",
+          "children": [
+            {
+              "id": "impact-strategic-investments-1-3-year-horizon",
+              "label": "Strategic investments (1-3 year horizon)"
+            },
+            {
+              "id": "impact-key-operational-investments-mitigate-disadvantages",
+              "label": "Key operational investments (mitigate disadvantages)"
+            },
+            {
+              "id": "impact-high-potential-projects-prototypes",
+              "label": "High-potential projects (prototypes)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact-informating-products-services",
+      "label": "Informating Products/Services",
+      "children": [
+        {
+          "id": "impact-smart-products-e-g-riddell-smart-helmets",
+          "label": "Smart Products (e.g., Riddell smart helmets)"
+        },
+        {
+          "id": "impact-servitization-e-g-pay-how-you-drive-insurance",
+          "label": "Servitization (e.g., pay-how-you-drive insurance)"
+        },
+        {
+          "id": "impact-value-chain-augmentation",
+          "label": "Value Chain Augmentation",
+          "children": [
+            {
+              "id": "impact-improve-product-reliability-e-g-f1-car-sensors",
+              "label": "Improve product reliability (e.g., F1 car sensors)"
+            },
+            {
+              "id": "impact-enhance-availability-e-g-skf-smart-bearings",
+              "label": "Enhance availability (e.g., SKF smart bearings)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact-industry-analysis-tools",
+      "label": "Industry Analysis Tools",
+      "children": [
+        {
+          "id": "impact-porter-s-competitive-forces",
+          "label": "Porter’s Competitive Forces",
+          "children": [
+            {
+              "id": "impact-supplier-power",
+              "label": "Supplier power"
+            },
+            {
+              "id": "impact-buyer-power",
+              "label": "Buyer power"
+            },
+            {
+              "id": "impact-threat-of-substitutes",
+              "label": "Threat of substitutes"
+            },
+            {
+              "id": "impact-new-entrants",
+              "label": "New entrants"
+            },
+            {
+              "id": "impact-industry-rivalry",
+              "label": "Industry rivalry"
+            }
+          ]
+        },
+        {
+          "id": "impact-value-chain-analysis",
+          "label": "Value Chain Analysis",
+          "children": [
+            {
+              "id": "impact-industry-value-chain",
+              "label": "Industry Value Chain",
+              "children": [
+                {
+                  "id": "impact-map-information-flows",
+                  "label": "Map information flows"
+                },
+                {
+                  "id": "impact-assess-process-value-add",
+                  "label": "Assess process value-add"
+                }
+              ]
+            },
+            {
+              "id": "impact-internal-value-chain",
+              "label": "Internal Value Chain",
+              "children": [
+                {
+                  "id": "impact-primary-support-activities",
+                  "label": "Primary/support activities"
+                },
+                {
+                  "id": "impact-alternatives",
+                  "label": "Alternatives:",
+                  "children": [
+                    {
+                      "id": "impact-value-shops-problem-solving-orgs",
+                      "label": "Value Shops (problem-solving orgs)"
+                    },
+                    {
+                      "id": "impact-value-networks-platforms-like-uber",
+                      "label": "Value Networks (platforms like Uber)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "impact-crla-consumer-resource-life-cycle",
+          "label": "CRLA (Consumer Resource Life-cycle)",
+          "children": [
+            {
+              "id": "impact-diagnostic-questions",
+              "label": "Diagnostic Questions:",
+              "children": [
+                {
+                  "id": "impact-problem-recognition",
+                  "label": "Problem recognition"
+                },
+                {
+                  "id": "impact-information-search",
+                  "label": "Information search"
+                },
+                {
+                  "id": "impact-purchase-choice",
+                  "label": "Purchase choice"
+                },
+                {
+                  "id": "impact-post-purchase-support",
+                  "label": "Post-purchase support"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact-strategic-option-generator",
+      "label": "Strategic Option Generator",
+      "children": [
+        {
+          "id": "impact-supplier-focus",
+          "label": "Supplier Focus",
+          "children": [
+            {
+              "id": "impact-reduce-costs",
+              "label": "Reduce costs"
+            },
+            {
+              "id": "impact-identify-alternatives",
+              "label": "Identify alternatives"
+            }
+          ]
+        },
+        {
+          "id": "impact-customer-focus",
+          "label": "Customer Focus",
+          "children": [
+            {
+              "id": "impact-increase-switching-costs",
+              "label": "Increase switching costs"
+            },
+            {
+              "id": "impact-improve-support",
+              "label": "Improve support"
+            }
+          ]
+        },
+        {
+          "id": "impact-competitor-focus",
+          "label": "Competitor Focus",
+          "children": [
+            {
+              "id": "impact-raise-entry-barriers",
+              "label": "Raise entry barriers"
+            },
+            {
+              "id": "impact-create-niches",
+              "label": "Create niches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact-value-networks",
+      "label": "Value Networks",
+      "children": [
+        {
+          "id": "impact-beyond-traditional-chains",
+          "label": "Beyond Traditional Chains:",
+          "children": [
+            {
+              "id": "impact-co-created-value-e-g-mobile-ecosystems",
+              "label": "Co-created value (e.g., mobile ecosystems)"
+            },
+            {
+              "id": "impact-three-roles",
+              "label": "Three roles:",
+              "children": [
+                {
+                  "id": "impact-customer-relationships",
+                  "label": "Customer relationships"
+                },
+                {
+                  "id": "impact-service-innovation",
+                  "label": "Service innovation"
+                },
+                {
+                  "id": "impact-infrastructure-management",
+                  "label": "Infrastructure management"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact-myths-debunked",
+      "label": "Myths Debunked",
+      "children": [
+        {
+          "id": "impact-siss-are-always-preferred-context-matters",
+          "label": "\"SISs are always preferred\" → Context matters!"
+        },
+        {
+          "id": "impact-advantage-is-always-planned-emergent-strategies-exist",
+          "label": "\"Advantage is always planned\" → Emergent strategies exist"
+        },
+        {
+          "id": "impact-it-alone-creates-advantage-requires-org-alignment",
+          "label": "\"IT alone creates advantage\" → Requires org alignment"
+        }
+      ]
+    }
+  ]
+}
