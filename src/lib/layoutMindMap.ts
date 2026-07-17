@@ -11,6 +11,7 @@ export type MindMapNodeData = {
   hasChildren: boolean;
   expanded: boolean;
   depth: number;
+  nodeId: string;
 };
 
 function collectVisible(
@@ -65,6 +66,7 @@ export function buildFlowElements(
         hasChildren: Boolean(node.children?.length),
         expanded: expandedIds.has(node.id),
         depth,
+        nodeId: node.id,
       },
       selected: selectedId === node.id,
       style: { width: NODE_WIDTH, height: NODE_HEIGHT },
@@ -89,7 +91,7 @@ export function buildFlowElements(
   return { nodes, edges };
 }
 
-/** Expand root and first two levels for an initial readable phone view. */
+/** Expand root and first level for an initial readable phone view. */
 export function defaultExpandedIds(root: MindNode, maxDepth = 1): Set<string> {
   const ids = new Set<string>();
 

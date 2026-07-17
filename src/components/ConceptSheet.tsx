@@ -3,8 +3,8 @@ import { conceptsById } from "../data/concepts";
 import type { Concept } from "../data/types";
 
 type Props = {
-  conceptId: string | null;
-  fallbackLabel?: string;
+  concept: Concept | null;
+  curated: boolean;
   open: boolean;
   onClose: () => void;
   onOpenRelated: (id: string) => void;
@@ -19,10 +19,21 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 
-function ConceptBody({ concept, onOpenRelated }: { concept: Concept; onOpenRelated: (id: string) => void }) {
+function ConceptBody({
+  concept,
+  curated,
+  onOpenRelated,
+}: {
+  concept: Concept;
+  curated: boolean;
+  onOpenRelated: (id: string) => void;
+}) {
   const { detail } = concept;
   return (
     <>
+      <p className={`sheet-badge ${curated ? "sheet-badge--curated" : ""}`}>
+        {curated ? "Exam concept card" : "Mind-map branch"}
+      </p>
       <p className="sheet-summary">{concept.summary}</p>
       {detail.definition ? (
         <Section title="Definition">
@@ -30,7 +41,7 @@ function ConceptBody({ concept, onOpenRelated }: { concept: Concept; onOpenRelat
         </Section>
       ) : null}
       {detail.components?.length ? (
-        <Section title="Components">
+        <Section title={curated ? "Components" : "In this branch"}>
           <ul>
             {detail.components.map((item) => (
               <li key={item}>{item}</li>
@@ -91,17 +102,17 @@ function ConceptBody({ concept, onOpenRelated }: { concept: Concept; onOpenRelat
   );
 }
 
-export function ConceptSheet({ conceptId, fallbackLabel, open, onClose, onOpenRelated }: Props) {
-  const concept = conceptId ? conceptsById[conceptId] : undefined;
+export function ConceptSheet({ concept, curated, open, onClose, onOpenRelated }: Props) {
+  if (!open) return null;
 
   return (
-    <div className={`sheet ${open ? "sheet--open" : ""}`} role="dialog" aria-modal="true" aria-hidden={!open}>
+    <div className="sheet sheet--open" role="dialog" aria-modal="true">
       <button type="button" className="sheet-backdrop" aria-label="Close concept panel" onClick={onClose} />
       <aside className="sheet-panel">
         <header className="sheet-header">
           <div>
-            <p className="sheet-kicker">{concept ? "Concept" : "Node"}</p>
-            <h2>{concept?.title ?? fallbackLabel ?? "Concept"}</h2>
+            <p className="sheet-kicker">{curated ? "Concept" : "Map node"}</p>
+            <h2>{concept?.title ?? "Concept"}</h2>
           </div>
           <button type="button" className="icon-btn" onClick={onClose} aria-label="Close">
             ✕
@@ -109,12 +120,9 @@ export function ConceptSheet({ conceptId, fallbackLabel, open, onClose, onOpenRe
         </header>
         <div className="sheet-body">
           {concept ? (
-            <ConceptBody concept={concept} onOpenRelated={onOpenRelated} />
+            <ConceptBody concept={concept} curated={curated} onOpenRelated={onOpenRelated} />
           ) : (
-            <p className="sheet-summary">
-              Outline node from the topic mind map. Expand branches on the map, or open a highlighted
-              node for a full study card.
-            </p>
+            <p className="sheet-summary">Select a node on the mind map to study it.</p>
           )}
         </div>
       </aside>

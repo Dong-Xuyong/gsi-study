@@ -1,13 +1,16 @@
 import { Handle, Position, type Node, type NodeProps } from "@xyflow/react";
 import type { MindMapNodeData } from "../lib/layoutMindMap";
+import { useNodeActivate } from "./NodeActivateContext";
 
 type MindFlowNode = Node<MindMapNodeData, "mind">;
 
 export function MindNode({ data, selected }: NodeProps<MindFlowNode>) {
+  const activate = useNodeActivate();
   const enriched = Boolean(data.conceptId);
 
   return (
-    <div
+    <button
+      type="button"
       className={[
         "mind-node",
         selected ? "mind-node--selected" : "",
@@ -16,16 +19,21 @@ export function MindNode({ data, selected }: NodeProps<MindFlowNode>) {
       ]
         .filter(Boolean)
         .join(" ")}
+      onClick={(event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        activate(data.nodeId);
+      }}
     >
-      <Handle type="target" position={Position.Left} className="mind-handle" />
-      <div className="mind-node__label">{data.label}</div>
+      <Handle type="target" position={Position.Left} className="mind-handle" isConnectable={false} />
+      <span className="mind-node__label">{data.label}</span>
       {data.hasChildren ? (
         <span className="mind-node__badge" aria-hidden>
           {data.expanded ? "−" : "+"}
         </span>
       ) : null}
       {enriched ? <span className="mind-node__dot" title="Has study notes" /> : null}
-      <Handle type="source" position={Position.Right} className="mind-handle" />
-    </div>
+      <Handle type="source" position={Position.Right} className="mind-handle" isConnectable={false} />
+    </button>
   );
 }

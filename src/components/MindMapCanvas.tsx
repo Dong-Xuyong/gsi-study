@@ -5,16 +5,23 @@ import {
   MiniMap,
   useReactFlow,
   ReactFlowProvider,
+  useNodesState,
+  useEdgesState,
+  type Edge,
+  type Node,
   type NodeTypes,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo, useCallback, useState } from "react";
 import { enrichTree } from "../lib/enrichTree";
-import { buildFlowElements, defaultExpandedIds } from "../lib/layoutMindMap";
+import { buildFlowElements, defaultExpandedIds, type MindMapNodeData } from "../lib/layoutMindMap";
 import type { MindNode, TopicId } from "../data/types";
 import { MindNode as MindNodeView } from "./MindNode";
+import { NodeActivateContext } from "./NodeActivateContext";
 
 const nodeTypes: NodeTypes = { mind: MindNodeView };
+
+type FlowNode = Node<MindMapNodeData>;
 
 type InnerProps = {
   topicId: TopicId;
@@ -26,21 +33,9 @@ type InnerProps = {
 function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProps) {
   const enriched = useMemo(() => enrichTree(root), [root]);
   const [expandedIds, setExpandedIds] = useState(() => defaultExpandedIds(enriched, 1));
+  const [nodes, setNodes, onNodesChange] = useNodesState<FlowNode>([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([]);
   const { fitView } = useReactFlow();
-
-  useEffect(() => {
-    setExpandedIds(defaultExpandedIds(enriched, 1));
-  }, [topicId, enriched]);
-
-  const { nodes, edges } = useMemo(
-    () => buildFlowElements(enriched, expandedIds, selectedNodeId),
-    [enriched, expandedIds, selectedNodeId],
-  );
-
-  useEffect(() => {
-    const t = window.setTimeout(() => fitView({ padding: 0.2, duration: 280 }), 40);
-    return () => window.clearTimeout(t);
-  }, [topicId, expandedIds, fitView]);
 
   const findNode = useCallback(
     (id: string): MindNode | undefined => {
@@ -55,43 +50,63 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
     [enriched],
   );
 
+  const activateNode = useCallback(
+    (id: string) => {
+      const mind = findNode(id);
+      if (!mind) return;
+      if (mind.children?.length) {
+        setExpandedIds((prev) => {
+          const next = new Set(prev);
+          if (next.has(mind.id)) next.delete(mind.id);
+          else next.add(mind.id);
+          return next;
+        });
+      }
+      onSelectNode(mind);
+    },
+    [findNode, onSelectNode],
+  );
+
+  useEffect(() => {
+    setExpandedIds(defaultExpandedIds(enriched, 1));
+  }, [topicId, enriched]);
+
+  useEffect(() => {
+    const built = buildFlowElements(enriched, expandedIds, selectedNodeId);
+    setNodes(built.nodes);
+    setEdges(built.edges);
+  }, [enriched, expandedIds, selectedNodeId, setNodes, setEdges]);
+
+  useEffect(() => {
+    const t = window.setTimeout(() => fitView({ padding: 0.18, duration: 280 }), 60);
+    return () => window.clearTimeout(t);
+  }, [topicId, expandedIds, fitView]);
+
   return (
-    <ReactFlow
-      nodes={nodes}
-      edges={edges}
-      nodeTypes={nodeTypes}
-      fitView
-      minZoom={0.25}
-      maxZoom={1.6}
-      panOnScroll
-      zoomOnPinch
-      nodesDraggable={false}
-      nodesConnectable={false}
-      elementsSelectable
-      proOptions={{ hideAttribution: true }}
-      onNodeClick={(_, node) => {
-        const mind = findNode(node.id);
-        if (!mind) return;
-        if (mind.children?.length) {
-          setExpandedIds((prev) => {
-            const next = new Set(prev);
-            if (next.has(mind.id)) next.delete(mind.id);
-            else next.add(mind.id);
-            return next;
-          });
-        }
-        onSelectNode(mind);
-      }}
-    >
-      <Background gap={22} size={1} color="var(--grid)" />
-      <Controls showInteractive={false} />
-      <MiniMap
-        pannable
-        zoomable
-        nodeColor={() => "var(--accent-soft)"}
-        maskColor="color-mix(in srgb, var(--ink) 35%, transparent)"
-      />
-    </ReactFlow>
+    <NodeActivateContext.Provider value={activateNode}>
+      <ReactFlow
+        nodes={nodes}
+        edges={edges}
+        onNodesChange={onNodesChange}
+        onEdgesChange={onEdgesChange}
+        nodeTypes={nodeTypes}
+        fitView
+        minZoom={0.2}
+        maxZoom={1.8}
+        panOnScroll
+        zoomOnPinch
+        panOnDrag
+        nodesDraggable={false}
+        nodesConnectable={false}
+        elementsSelectable
+        proOptions={{ hideAttribution: true }}
+        onNodeClick={(_, node) => activateNode(node.id)}
+      >
+        <Background gap={22} size={1} color="var(--grid)" />
+        <Controls showInteractive={false} />
+        <MiniMap pannable zoomable nodeColor={() => "#c6e3df"} maskColor="rgba(20, 32, 41, 0.35)" />
+      </ReactFlow>
+    </NodeActivateContext.Provider>
   );
 }
 

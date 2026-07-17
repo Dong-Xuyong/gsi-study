@@ -42,5 +42,17 @@ export const conceptMatchers: ConceptMatcher[] = [
   { pattern: /quatro tempos|four times|automation.*information.*transformation/i, conceptId: "quatro-tempos-gsi" },
 ];
 
-export const matchConceptId = (label: string): string | undefined =>
-  conceptMatchers.find(({ pattern }) => pattern.test(label))?.conceptId;
+function normalizeLabel(label: string): string {
+  return label
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’‘‛′`]/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export const matchConceptId = (label: string): string | undefined => {
+  const normalized = normalizeLabel(label);
+  return conceptMatchers.find(({ pattern }) => pattern.test(normalized) || pattern.test(label))
+    ?.conceptId;
+};
