@@ -75,7 +75,7 @@ export default function App() {
               ← Topics
             </button>
           ) : (
-            <span className="topbar-brand">GSI Study</span>
+            <span className="topbar-brand">GSI Exam Mind Maps</span>
           )}
           {view === "map" && topic ? (
             <div className="topbar-topic">
