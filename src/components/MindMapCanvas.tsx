@@ -122,8 +122,8 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
         padding: narrow ? 0.24 : 0.18,
         duration: 280,
         // Keep labels readable on phones instead of shrinking to fit every sibling.
-        maxZoom: narrow ? 0.95 : 1.15,
-        minZoom: narrow ? 0.55 : 0.35,
+        maxZoom: 1.15,
+        minZoom: narrow ? 0.85 : 0.35,
       });
     }, 80);
     return () => window.clearTimeout(t);
@@ -138,7 +138,7 @@ function MindMapInner({ topicId, root, selectedNodeId, onSelectNode }: InnerProp
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
         fitView
-        minZoom={narrow ? 0.5 : 0.25}
+        minZoom={narrow ? 0.85 : 0.25}
         maxZoom={1.8}
         panOnScroll
         zoomOnPinch

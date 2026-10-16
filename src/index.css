@@ -1,12 +1,12 @@
 :root,
 html.dark {
-  --ink: var(--dx-fg);
+  --ink: var(--dx-text);
   --muted: var(--dx-muted);
   --paper: var(--dx-card-solid);
-  --paper-2: var(--dx-primary-soft);
+  --paper-2: var(--dx-accent-soft);
   --line: var(--dx-border);
-  --accent: var(--dx-primary);
-  --accent-soft: var(--dx-primary-soft);
+  --accent: var(--dx-accent);
+  --accent-soft: var(--dx-accent-soft);
   --grid: var(--dx-border);
   --font-display: var(--dx-font);
   --font-body: var(--dx-font);
@@ -15,7 +15,7 @@ html.dark {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--dx-fg);
+  color: var(--dx-text);
 }
 
 * {
@@ -39,5 +39,5 @@ input {
 }
 
 a {
-  color: var(--dx-primary);
+  color: var(--dx-accent);
 }
