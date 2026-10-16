@@ -11,14 +11,14 @@ export function TopicConceptList({ topicId, onOpen }: Props) {
 
   if (items.length === 0) {
     return (
-      <div className="concept-rail">
+      <div className="concept-rail dx-card">
         <p className="concept-rail__empty">Tap any map node to open its branch notes.</p>
       </div>
     );
   }
 
   return (
-    <div className="concept-rail">
+    <div className="concept-rail dx-card">
       <p className="concept-rail__title">Key concepts · {items.length}</p>
       <ul className="concept-rail__list">
         {items.map((concept) => (

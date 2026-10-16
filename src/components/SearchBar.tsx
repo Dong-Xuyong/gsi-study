@@ -48,7 +48,7 @@ export function SearchBar({ onSelect }: Props) {
         autoComplete="off"
       />
       {open && results.length > 0 ? (
-        <ul className="search-results">
+        <ul className="search-results dx-card">
           {results.map((concept) => (
             <li key={concept.id}>
               <button

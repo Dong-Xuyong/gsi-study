@@ -61,12 +61,34 @@ export default function App() {
 
   return (
     <div className="app">
-      <header className="topbar">
-        <div className="topbar-left">
+      <header className="dx-header">
+        <a className="dx-home" href="/" aria-label="Home">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M3 10.5 12 3l9 7.5" />
+            <path d="M5 9.5V21h14V9.5" />
+          </svg>
+        </a>
+        <div className="dx-title-block">
+          <h1 className="dx-title">GSI Exam Mind Maps</h1>
+          {view === "map" && topic ? (
+            <p className="topbar-topic">
+              {topic.code} · {topic.title}
+            </p>
+          ) : null}
+        </div>
+        <div className="dx-actions">
           {view === "map" ? (
             <button
               type="button"
-              className="text-btn"
+              className="dx-btn dx-btn--ghost"
               onClick={() => {
                 setView("hub");
                 setSheetOpen(false);
@@ -74,17 +96,9 @@ export default function App() {
             >
               ← Topics
             </button>
-          ) : (
-            <span className="topbar-brand">GSI Exam Mind Maps</span>
-          )}
-          {view === "map" && topic ? (
-            <div className="topbar-topic">
-              <span>{topic.code}</span>
-              <strong>{topic.title}</strong>
-            </div>
           ) : null}
+          <SearchBar onSelect={openConcept} />
         </div>
-        <SearchBar onSelect={openConcept} />
       </header>
 
       <main className="main">

@@ -110,7 +110,7 @@ export function ConceptSheet({ concept, curated, open, onClose, onOpenRelated }:
   return (
     <div className="sheet sheet--open" role="dialog" aria-modal="true">
       <button type="button" className="sheet-backdrop" aria-label="Close concept panel" onClick={onClose} />
-      <aside className="sheet-panel">
+      <aside className="sheet-panel dx-card">
         <header className="sheet-header">
           <div>
             <p className="sheet-kicker">{curated ? "Concept" : "Map node"}</p>

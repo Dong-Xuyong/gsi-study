@@ -1,25 +1,21 @@
-:root {
-  --ink: #142029;
-  --muted: #5b6b74;
-  --paper: #f3efe6;
-  --paper-2: #e7e1d4;
-  --line: #c9c0b0;
-  --accent: #0f6e6a;
-  --accent-soft: #c6e3df;
-  --grid: #d7d0c2;
-  --font-display: "Fraunces", Georgia, serif;
-  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
-  color-scheme: light;
-  font-family: var(--font-body);
+:root,
+html.dark {
+  --ink: var(--dx-fg);
+  --muted: var(--dx-muted);
+  --paper: var(--dx-card-solid);
+  --paper-2: var(--dx-primary-soft);
+  --line: var(--dx-border);
+  --accent: var(--dx-primary);
+  --accent-soft: var(--dx-primary-soft);
+  --grid: var(--dx-border);
+  --font-display: var(--dx-font);
+  --font-body: var(--dx-font);
+  font-family: var(--dx-font);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:
-    radial-gradient(1200px 600px at 10% -10%, #d7ebe8 0%, transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, #efe2c8 0%, transparent 50%),
-    linear-gradient(180deg, #f7f3ea 0%, #ebe4d6 100%);
-  color: var(--ink);
+  color: var(--dx-fg);
 }
 
 * {
@@ -43,5 +39,5 @@ input {
 }
 
 a {
-  color: var(--accent);
+  color: var(--dx-primary);
 }
